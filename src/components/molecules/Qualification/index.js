@@ -60,21 +60,9 @@ const Qualification = () => {
               <p className="text-sm text-neutral font-semibold">08/2015</p>
             </div>
             <p className="text-sm text-neutral text-justify">
-              I have successfully passed the{" "}
+              I have successfully completed the{" "}
               <b>Standard English/Western Certification</b> from British Council
               IELTS
-            </p>
-          </div>
-          <div className="my-6 md:my-4 md:ml-[200px] p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
-            <div className="text-right mb-4">
-              <h3 className="text-2xl font-semibold text-primary">
-                M.S. in Computer Science
-              </h3>
-              <p className="text-sm text-neutral font-semibold">2009 - 2015</p>
-            </div>
-            <p className="text-sm text-neutral text-justify">
-              I have successfully finished the bachelor's degree course in{" "}
-              <b>University of Bucharest.</b>
             </p>
           </div>
         </div>

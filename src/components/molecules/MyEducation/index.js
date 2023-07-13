@@ -50,7 +50,7 @@ const Education = () => {
             <img
               alt="universityBrand"
               src={IMG_UNI1}
-              className="mb-4"
+              className="mb-4 pl-11 pr-11"
               style={{ width: "100%" }}
             />
             <h2
