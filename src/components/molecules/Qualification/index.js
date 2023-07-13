@@ -28,8 +28,44 @@ const Qualification = () => {
           />
         </div>
         <div className="mx-auto lg:ml-auto">
-          {/* Diploma */}
-          <div className="p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg inline-block w-[300px] hover:shadow-primary duration-300 cursor-pointer">
+          <div className="p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
+            <div className="text-right mb-4">
+              <h3 className="text-2xl font-semibold text-primary">
+                Certified Internet Webmaster Web Developer (CIW)
+              </h3>
+              <p className="text-sm text-neutral font-semibold">06/2018</p>
+            </div>
+            <p className="text-sm text-neutral text-justify">
+              I have successfully completed the <b>CIW</b> from Certification
+              Partners.
+            </p>
+          </div>
+          <div className="my-6 md:my-4 md:ml-[200px] p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
+            <div className="text-right mb-4">
+              <h3 className="text-2xl font-semibold text-primary">
+                Certified Computer Skills Specialist(CCSS)
+              </h3>
+              <p className="text-sm text-neutral font-semibold">04/2018</p>
+            </div>
+            <p className="text-sm text-neutral text-justify">
+              I have successfully completed the <b>CCSS</b> from Certification
+              Partners.
+            </p>
+          </div>
+          <div className="p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
+            <div className="text-right mb-4">
+              <h3 className="text-2xl font-semibold text-primary">
+                Standard English/Western Certification
+              </h3>
+              <p className="text-sm text-neutral font-semibold">08/2015</p>
+            </div>
+            <p className="text-sm text-neutral text-justify">
+              I have successfully passed the{" "}
+              <b>Standard English/Western Certification</b> from British Council
+              IELTS
+            </p>
+          </div>
+          <div className="my-6 md:my-4 md:ml-[200px] p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
             <div className="text-right mb-4">
               <h3 className="text-2xl font-semibold text-primary">
                 M.S. in Computer Science
@@ -37,34 +73,8 @@ const Qualification = () => {
               <p className="text-sm text-neutral font-semibold">2009 - 2015</p>
             </div>
             <p className="text-sm text-neutral text-justify">
-              I have successfully completed the master's degree course in{" "}
-              <b>University of Toronto.</b>
-            </p>
-          </div>
-
-          {/* React Developer */}
-          <div className="my-6 md:my-4 md:ml-[200px] p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
-            <div className="text-right mb-4">
-              <h3 className="text-2xl font-semibold text-primary">
-                React Developer
-              </h3>
-              <p className="text-sm text-neutral font-semibold">2023</p>
-            </div>
-            <p className="text-sm text-neutral text-justify">
-              I have successfully completed the{" "}
-              <b>React Web Developer Expert</b> from Dicoding.
-            </p>
-          </div>
-
-          {/* SSC */}
-          <div className="p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
-            <div className="text-right mb-4">
-              <h3 className="text-2xl font-semibold text-primary">SSC</h3>
-              <p className="text-sm text-neutral font-semibold">2006 - 2009</p>
-            </div>
-            <p className="text-sm text-neutral text-justify">
-              I have passed the Senior Secondary Certificate (SSC) with the
-              highest result <b>GPA - 3.9 | 4.0</b>
+              I have successfully finished the bachelor's degree course in{" "}
+              <b>University of Bucharest.</b>
             </p>
           </div>
         </div>

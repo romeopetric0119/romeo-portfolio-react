@@ -150,12 +150,12 @@ const Contact = () => {
           <h2 className="text-2xl font-medium">Contact Info</h2>
           <div className="flex items-center my-6">
             <FaUserAlt className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaUserAlt>
-            <h3 className="font-medium text-primary">Arnold Choy</h3>
+            <h3 className="font-medium text-primary">Romeo Petric</h3>
           </div>
           <div className="flex items-center my-6">
             <MdEmail className="text-3xl mr-8 hover:text-primary cursor-pointer duration-300"></MdEmail>
             <h3 className="font-medium text-primary">
-              arnold.choy93@outlook.com
+              romeo.petric11@gmail.com
             </h3>
           </div>
           <div className="flex items-center my-6">
@@ -169,14 +169,14 @@ const Contact = () => {
             <h3 className="text-xl text-neutral">Social</h3>
             <div className="bg-gray-400 w-10 h-[2px] mx-4"></div>
             <a
-              href="https://www.linkedin.com/in/arnold-choy-11b71b281/"
+              href="https://www.linkedin.com/in/romeo-petric-79909b281/"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
               <FaLinkedin></FaLinkedin>
             </a>
             <a
-              href="https://www.github.com/superJSDEV"
+              href="https://www.github.com/techexpert11"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
