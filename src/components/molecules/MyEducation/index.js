@@ -43,24 +43,35 @@ const Education = () => {
             contentArrowStyle={{
               borderRight: "7px solid  rgb(102, 102, 51)",
             }}
-            date="08/2009 - 01/2015"
+            date="09/2011 - 08/2015"
             iconStyle={{ background: "rgb(102, 102, 51)", color: "#fff" }}
             icon={<FaUniversity />}
           >
-            <img src={IMG_UNI1} className="mb-4" style={{ width: "100%" }} />
+            <img
+              alt="universityBrand"
+              src={IMG_UNI1}
+              className="mb-4"
+              style={{ width: "100%" }}
+            />
             <h2
               className="vertical-timeline-element-title font-bold"
               style={{ color: "white" }}
             >
-              University of Toronto
+              University of Bucharest
             </h2>
             <h4
               className="vertical-timeline-element-subtitle"
               style={{ display: "flex", alignItems: "center" }}
             >
-              M.S. in Computer Science&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              B.S. in Computer Science&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <SlLocationPin />
-              &nbsp;Toronto, Canada
+              &nbsp;Bucharest, Romania
+            </h4>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              style={{ display: "flex", alignItems: "center" }}
+            >
+              GPA 3.9 / 4.0
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement

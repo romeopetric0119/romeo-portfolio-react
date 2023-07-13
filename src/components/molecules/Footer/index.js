@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="flex items-center justify-center mb-6">
           <a
             className="inline-block mx-2"
-            href="https://www.linkedin.com/in/arnold-choy-11b71b281/"
+            href="https://www.linkedin.com/in/romeo-petric-79909b281/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -21,7 +21,7 @@ const Footer = () => {
           </a>
           <a
             className="inline-block mx-2"
-            href="https://www.github.com/superJSDEV"
+            href="https://www.github.com/techexpert11"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -35,11 +35,11 @@ const Footer = () => {
           <p>
             Developed by{" "}
             <a
-              href="https://www.linkedin.com/in/arnold-choy-11b71b281/"
+              href="https://www.linkedin.com/in/romeo-petric-79909b281/"
               className="text-primary hover:underline"
               target="blank"
             >
-              Arnold Choy
+              Romeo Petric
             </a>
           </p>
         </div>

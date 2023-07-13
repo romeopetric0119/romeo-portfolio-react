@@ -82,10 +82,10 @@ const About = () => {
         >
           <img
             src={IMG_Portrait}
-            alt="Arnold Choy"
+            alt="Romeo Petric"
             className="pl-24 mt-6"
             style={{ filter: "drop-shadow(0 25px 25px rgb(0 0 0 / 0.95))" }}
-            title="Arnold Choy"
+            title="Romeo Petric"
           />
         </motion.div>
         <motion.div
@@ -98,16 +98,16 @@ const About = () => {
           }}
         >
           <h1 className="text-4xl text-black font-bold mb-4 text-center translate-y-[-380%] sm:translate-y-[-0%] sm:text-3xl sm:mb-2 md:text-left">
-            ARNOLD CHOY
+            ROMEO PETRIC
           </h1>
           <div className="my-8">
             <TypeAnimation
               className="text-2xl text-primary font-bold text-center translate-y-[-500%] sm:translate-y-[-0%]  sm:text-2xl sm:mb-2 md:text-left"
               cursor={true}
               sequence={[
-                "A Full Stack Developer",
+                "Senior Web Developer",
                 2000,
-                "Proficient with MERN",
+                "Proficient in Web Development",
                 2000,
               ]}
               wrapper="div"
@@ -115,21 +115,20 @@ const About = () => {
             />
           </div>
           <p className="text-neutral font-medium text-center translate-y-[-100%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
-            Highly skilled and motivated full-stack web developer with 10 years
-            of experience in building robust and scalable web applications.
-            Proficient with React + Node.js + ExpressJS + MongoDB, with a strong
-            understanding of full-stack development principles.
+            Highly skilled Senior Web Developer with 9+ years of hands-on
+            experience in designing, developing, and implementing web
+            applications and solutions using a wide range of technical stacks
+            and programming languages. Committed to delivering high-quality
+            software solutions and staying updated with industry trends. Strong
+            leadership, problem-solving, and coding abilities.
           </p>
           <br />
           <p className="text-neutral font-medium text-center translate-y-[-150%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
-            Seeking a challenging position to utilize my skills and contribute
-            to the success of a dynamic company.
+            Seeking opportunities to contribute to a forward-thinking
+            organization.
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left text-black">
-            <a
-              href="https://drive.google.com/file/d/1uLZSGwlWB1hLBKd1C5q0AGrlMIhQKNGp/view?usp=drive_link"
-              target="blank"
-            >
+            <a href="#" target="blank">
               <div className="flex justify-center md:justify-start translate-y-[60%] sm:translate-y-[-0%]">
                 <button className="primary-button">
                   <span>My Resume</span>

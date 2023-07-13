@@ -10,9 +10,10 @@ import { FaBriefcase } from "react-icons/fa";
 import { SlBriefcase, SlLocationPin } from "react-icons/sl";
 import experience from "../../../assets/lottie/experience.json";
 
-import IMG_COM1 from "../../../assets/company/1.jpg";
-import IMG_COM2 from "../../../assets/company/2.jpg";
-import IMG_COM3 from "../../../assets/company/3.jpg";
+import IMG_COM1 from "../../../assets/company/NTT DATA UK&I.jpg";
+import IMG_COM2 from "../../../assets/company/Idea.jpg";
+import IMG_COM3 from "../../../assets/company/SII Romania.jpg";
+import IMG_COM4 from "../../../assets/company/Integrisoft Solutions.jpg";
 
 const Experience = () => {
   const defaultOptions = {
@@ -23,6 +24,46 @@ const Experience = () => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
+  const experiences = [
+    {
+      image: IMG_COM1,
+      background: "rgb(33, 150, 243)",
+      title: "NTT DATA UK&I",
+      job: "Senior Web Developer",
+      start: "04/2021",
+      end: "05/2023",
+      position: "London, UK",
+    },
+    {
+      image: IMG_COM2,
+      background: "rgb(150, 33, 243)",
+      title: "Idea",
+      job: "Full Stack Developer",
+      start: "03/2020",
+      end: "02/2021",
+      position: "London, UK",
+    },
+    {
+      image: IMG_COM3,
+      background: "rgb(243, 150, 33)",
+      title: "SII Romania",
+      job: "Web Developer",
+      start: "10/2016",
+      end: "12/2019",
+      position: "Bucharest, Romania",
+    },
+    {
+      image: IMG_COM4,
+      background: "rgb(243, 33, 150)",
+      title: "Integrisoft Solutions",
+      job: "Software Engineer Intern",
+      start: "10/2015",
+      end: "08/2016",
+      position: "Bucharest, Romania",
+    },
+  ];
+
   return (
     <div className="pt-24">
       <div className="mb-12">
@@ -41,96 +82,44 @@ const Experience = () => {
         </div>
         <div style={{ width: "100%" }}>
           <VerticalTimeline>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)",
-              }}
-              date="06/2020 - 04/2023"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              icon={<HiBriefcase />}
-            >
-              <img src={IMG_COM3} className="mb-4" style={{ width: "100%" }} />
-              <h2
-                className="vertical-timeline-element-title font-bold"
-                style={{ color: "white" }}
-              >
-                Senior Full Stack Developer
-              </h2>
-              <h4
-                className="vertical-timeline-element-subtitle"
-                style={{ display: "flex", alignItems: "center" }}
-              >
-                Smartsites&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <SlLocationPin />
-                &nbsp;Paramus, US
-              </h4>
-              <p>
-                I worked as a senior full-stack developer here, responsible for
-                building, deploying and maintaining internal web applications.
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(255, 153, 51)", color: "#fff" }}
-              contentArrowStyle={{
-                borderRight: "7px solid  rgb(255, 153, 51)",
-              }}
-              date="02/2017 - 06/2020"
-              iconStyle={{ background: "rgb(255, 153, 51)", color: "#fff" }}
-              icon={<FaBriefcase />}
-            >
-              <img src={IMG_COM2} className="mb-4" style={{ width: "100%" }} />
-              <h2
-                className="vertical-timeline-element-title font-bold"
-                style={{ color: "white" }}
-              >
-                Full Stack Developer
-              </h2>
-              <h4
-                className="vertical-timeline-element-subtitle"
-                style={{ display: "flex", alignItems: "center" }}
-              >
-                Devstars&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <SlLocationPin />
-                &nbsp;Toronto, Canada
-              </h4>
-              <p>
-                I worked as a full-stack developer here, responsible for
-                development, UX design, product evolution.
-              </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "rgb(0, 204, 153)", color: "#fff" }}
-              contentArrowStyle={{
-                borderRight: "7px solid  rgb(0, 204, 153)",
-              }}
-              date="03/2015 - 02/2017"
-              iconStyle={{ background: "rgb(0, 204, 153)", color: "#fff" }}
-              icon={<SlBriefcase />}
-            >
-              <img src={IMG_COM1} className="mb-4" style={{ width: "100%" }} />
-              <h2
-                className="vertical-timeline-element-title font-bold"
-                style={{ color: "white" }}
-              >
-                Web Developer
-              </h2>
-              <h4
-                className="vertical-timeline-element-subtitle"
-                style={{ display: "flex", alignItems: "center" }}
-              >
-                Inorbital&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <SlLocationPin />
-                &nbsp;Toronto, Canada
-              </h4>
-              <p>
-                I worked as a Web developer here, responsible for development,
-                testing product.
-              </p>
-            </VerticalTimelineElement>
+            {experiences.map(
+              ({ image, background, title, job, start, end, position }) => (
+                <VerticalTimelineElement
+                  className="vertical-timeline-element--work"
+                  contentStyle={{
+                    background,
+                    color: "#fff",
+                  }}
+                  contentArrowStyle={{
+                    borderRight: `7px solid ${background}`,
+                  }}
+                  date={`${start} - ${end}`}
+                  iconStyle={{ background, color: "#fff" }}
+                  icon={<HiBriefcase />}
+                >
+                  <img
+                    alt="companyMark"
+                    src={image}
+                    className="mb-4"
+                    style={{ width: "100%" }}
+                  />
+                  <h4
+                    className="vertical-timeline-element-subtitle"
+                    style={{ display: "flex", alignItems: "center" }}
+                  >
+                    {title}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <SlLocationPin />
+                    &nbsp;{position}
+                  </h4>
+                  <h2
+                    className="vertical-timeline-element-title font-bold"
+                    style={{ color: "white" }}
+                  >
+                    {job}
+                  </h2>
+                </VerticalTimelineElement>
+              )
+            )}
           </VerticalTimeline>
         </div>
       </div>
