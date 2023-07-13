@@ -50,7 +50,6 @@ const About = () => {
           transition: { duration: 1, type: "spring" },
         }}
       >
-        <h3 className="text-neutral text-center">Something About Myself</h3>
         <h1 className="text-4xl font-semibold drop-shadow-md text-center">
           About <span className="text-primary">Me</span>
         </h1>

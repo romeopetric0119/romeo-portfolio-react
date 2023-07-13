@@ -86,7 +86,7 @@ const MySkill = () => {
       title: "Frontend",
       detail: [
         { title: "React", icon: <SiReact className="text-cyan-400" /> },
-        { title: "Angular", icon: <SiAngular className="text-red-400" /> },
+        { title: "Angular", icon: <SiAngular className="text-red-600" /> },
         { title: "Vue.js", icon: <SiVuedotjs className="text-green-600" /> },
         { title: "Next.js", icon: <SiNextdotjs className="text-black" /> },
         {

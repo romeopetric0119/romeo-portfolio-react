@@ -34,6 +34,8 @@ const Experience = () => {
       start: "04/2021",
       end: "05/2023",
       position: "London, UK",
+      description:
+        "I worked remotely as a Senior Developer at NTT DATA UK&I leading a team of 5 developers and spearheading the web development.",
     },
     {
       image: IMG_COM2,
@@ -43,6 +45,8 @@ const Experience = () => {
       start: "03/2020",
       end: "02/2021",
       position: "London, UK",
+      description:
+        "I worked remotely as a Full Stack Developer here responsible for development, UI/UX design and product evolution",
     },
     {
       image: IMG_COM3,
@@ -52,6 +56,8 @@ const Experience = () => {
       start: "10/2016",
       end: "12/2019",
       position: "Bucharest, Romania",
+      description:
+        "I worked as a web developer here focusing on 60% of frontend side and 40% of backend side.",
     },
     {
       image: IMG_COM4,
@@ -61,6 +67,8 @@ const Experience = () => {
       start: "10/2015",
       end: "08/2016",
       position: "Bucharest, Romania",
+      description:
+        "I started my career here, and gained valuable experience in software development.",
     },
   ];
 
@@ -83,7 +91,16 @@ const Experience = () => {
         <div style={{ width: "100%" }}>
           <VerticalTimeline>
             {experiences.map(
-              ({ image, background, title, job, start, end, position }) => (
+              ({
+                image,
+                background,
+                title,
+                job,
+                start,
+                end,
+                position,
+                description,
+              }) => (
                 <VerticalTimelineElement
                   className="vertical-timeline-element--work"
                   contentStyle={{
@@ -100,7 +117,7 @@ const Experience = () => {
                   <img
                     alt="companyMark"
                     src={image}
-                    className="mb-4"
+                    className="mb-4 pl-10 pr-10"
                     style={{ width: "100%" }}
                   />
                   <h4
@@ -117,6 +134,7 @@ const Experience = () => {
                   >
                     {job}
                   </h2>
+                  <p>{description}</p>
                 </VerticalTimelineElement>
               )
             )}
