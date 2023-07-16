@@ -65,9 +65,9 @@ const Banner = () => {
               className="text-2xl text-primary font-bold translate-y-[-80%] sm:translate-y-[-0%]"
               cursor={true}
               sequence={[
-                "A Senior Web Developer",
+                "Senior Web Developer",
                 2000,
-                "Proficient in MERN | MEAN",
+                "Proficient in Web Development",
                 2000,
               ]}
               wrapper="div"
@@ -76,19 +76,15 @@ const Banner = () => {
           </div>
           <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%]">
             Highly skilled Senior Web Developer with 9+ years of hands-on
-            experience in designing, developing, and implementing applications
-            and solutions using a wide range of technologies and programming
-            languages. Committed to delivering high-quality software solutions
-            and staying updated with industry trends. Strong leadership,
-            problem-solving, and coding abilities. Seeking opportunities to
-            contribute to a forward-thinking organization.
+            experience in designing, developing, and implementing web
+            applications and solutions using a wide range of technical stacks
+            and programming languages. Committed to delivering high-quality
+            software solutions and staying updated with industry trends. Strong
+            leadership, problem-solving, and coding abilities.
           </p>
 
           <div className="flex items-center translate-y-[-60%] sm:translate-y-[-0%]">
-            <a
-              href="https://drive.google.com/file/d/1uLZSGwlWB1hLBKd1C5q0AGrlMIhQKNGp/view?usp=drive_link"
-              target="blank"
-            >
+            <a href="#" target="blank">
               <button className="primary-button">
                 <span>My Resume</span>
                 <span>

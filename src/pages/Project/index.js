@@ -79,6 +79,17 @@ const Project = () => {
             </button>
             <button
               className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
+                activeBtn === "marketing" && "active-btn"
+              }`}
+              onClick={() => {
+                setActiveBtn("marketing");
+                filterItem("marketing");
+              }}
+            >
+              Marketing
+            </button>
+            <button
+              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
                 activeBtn === "booking" && "active-btn"
               }`}
               onClick={() => {
@@ -120,17 +131,6 @@ const Project = () => {
               }}
             >
               Healthcare
-            </button>
-            <button
-              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
-                activeBtn === "marketing" && "active-btn"
-              }`}
-              onClick={() => {
-                setActiveBtn("marketing");
-                filterItem("marketing");
-              }}
-            >
-              Marketing
             </button>
           </div>
 

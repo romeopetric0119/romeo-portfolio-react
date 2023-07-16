@@ -1,60 +1,60 @@
-import IMG_Pro1_main from "../assets/projects/project1/main.jpg";
-import IMG_Pro1_detail1 from "../assets/projects/project1/detail1.jpg";
-import IMG_Pro1_detail2 from "../assets/projects/project1/detail2.jpg";
-import IMG_Pro1_detail3 from "../assets/projects/project1/detail3.jpg";
-import IMG_Pro1_detail4 from "../assets/projects/project1/detail4.jpg";
+import IMG_DRONEBLOCKS_main from "../assets/projects/droneblocks/main.jpg";
+import IMG_DRONEBLOCKS_detail1 from "../assets/projects/droneblocks/detail1.jpg";
+import IMG_DRONEBLOCKS_detail2 from "../assets/projects/droneblocks/detail2.jpg";
+import IMG_DRONEBLOCKS_detail3 from "../assets/projects/droneblocks/detail3.jpg";
+import IMG_DRONEBLOCKS_detail4 from "../assets/projects/droneblocks/detail4.jpg";
 
-import IMG_Pro2_main from "../assets/projects/project2/main.jpg";
-import IMG_Pro2_detail1 from "../assets/projects/project2/detail1.jpg";
-import IMG_Pro2_detail2 from "../assets/projects/project2/detail2.jpg";
-import IMG_Pro2_detail3 from "../assets/projects/project2/detail3.jpg";
-import IMG_Pro2_detail4 from "../assets/projects/project2/detail4.jpg";
+import IMG_DRIVEFLUX_main from "../assets/projects/driveflux/main.jpg";
+import IMG_DRIVEFLUX_detail1 from "../assets/projects/driveflux/detail1.jpg";
+import IMG_DRIVEFLUX_detail2 from "../assets/projects/driveflux/detail2.jpg";
+import IMG_DRIVEFLUX_detail3 from "../assets/projects/driveflux/detail3.jpg";
+import IMG_DRIVEFLUX_detail4 from "../assets/projects/driveflux/detail4.jpg";
 
-import IMG_Pro3_main from "../assets/projects/project3/main.jpg";
-import IMG_Pro3_detail1 from "../assets/projects/project3/detail1.jpg";
-import IMG_Pro3_detail2 from "../assets/projects/project3/detail2.jpg";
-import IMG_Pro3_detail3 from "../assets/projects/project3/detail3.jpg";
-import IMG_Pro3_detail4 from "../assets/projects/project3/detail4.jpg";
+import IMG_ISLUXURY_main from "../assets/projects/isluxury/main.jpg";
+import IMG_ISLUXURY_detail1 from "../assets/projects/isluxury/detail1.jpg";
+import IMG_ISLUXURY_detail2 from "../assets/projects/isluxury/detail2.jpg";
+import IMG_ISLUXURY_detail3 from "../assets/projects/isluxury/detail3.jpg";
+import IMG_ISLUXURY_detail4 from "../assets/projects/isluxury/detail4.jpg";
 
-import IMG_Pro4_main from "../assets/projects/project4/main.jpg";
-import IMG_Pro4_detail1 from "../assets/projects/project4/detail1.jpg";
-import IMG_Pro4_detail2 from "../assets/projects/project4/detail2.jpg";
-import IMG_Pro4_detail3 from "../assets/projects/project4/detail3.jpg";
-import IMG_Pro4_detail4 from "../assets/projects/project4/detail4.jpg";
+import IMG_LYFT_main from "../assets/projects/lyft/main.jpg";
+import IMG_LYFT_detail1 from "../assets/projects/lyft/detail1.jpg";
+import IMG_LYFT_detail2 from "../assets/projects/lyft/detail2.jpg";
+import IMG_LYFT_detail3 from "../assets/projects/lyft/detail3.jpg";
+import IMG_LYFT_detail4 from "../assets/projects/lyft/detail4.jpg";
 
-import IMG_Pro5_main from "../assets/projects/project5/main.jpg";
-import IMG_Pro5_detail1 from "../assets/projects/project5/detail1.jpg";
-import IMG_Pro5_detail2 from "../assets/projects/project5/detail2.jpg";
-import IMG_Pro5_detail3 from "../assets/projects/project5/detail3.jpg";
-import IMG_Pro5_detail4 from "../assets/projects/project5/detail4.jpg";
+import IMG_VRBO_main from "../assets/projects/vrbo/main.jpg";
+import IMG_VRBO_detail1 from "../assets/projects/vrbo/detail1.jpg";
+import IMG_VRBO_detail2 from "../assets/projects/vrbo/detail2.jpg";
+import IMG_VRBO_detail3 from "../assets/projects/vrbo/detail3.jpg";
+import IMG_VRBO_detail4 from "../assets/projects/vrbo/detail4.jpg";
 
-import IMG_Pro6_main from "../assets/projects/project6/main.jpg";
-import IMG_Pro6_detail1 from "../assets/projects/project6/detail1.jpg";
-import IMG_Pro6_detail2 from "../assets/projects/project6/detail2.jpg";
-import IMG_Pro6_detail3 from "../assets/projects/project6/detail3.jpg";
-import IMG_Pro6_detail4 from "../assets/projects/project6/detail4.jpg";
+import IMG_MGMRESORTS_main from "../assets/projects/mgmresorts/main.jpg";
+import IMG_MGMRESORTS_detail1 from "../assets/projects/mgmresorts/detail1.jpg";
+import IMG_MGMRESORTS_detail2 from "../assets/projects/mgmresorts/detail2.jpg";
+import IMG_MGMRESORTS_detail3 from "../assets/projects/mgmresorts/detail3.jpg";
+import IMG_MGMRESORTS_detail4 from "../assets/projects/mgmresorts/detail4.jpg";
 
-import IMG_Pro7_main from "../assets/projects/project7/main.jpg";
-import IMG_Pro7_detail1 from "../assets/projects/project7/detail1.jpg";
-import IMG_Pro7_detail2 from "../assets/projects/project7/detail2.jpg";
-import IMG_Pro7_detail3 from "../assets/projects/project7/detail3.jpg";
-import IMG_Pro7_detail4 from "../assets/projects/project7/detail4.jpg";
+import IMG_GOPUFF_main from "../assets/projects/gopuff/main.jpg";
+import IMG_GOPUFF_detail1 from "../assets/projects/gopuff/detail1.jpg";
+import IMG_GOPUFF_detail2 from "../assets/projects/gopuff/detail2.jpg";
+import IMG_GOPUFF_detail3 from "../assets/projects/gopuff/detail3.jpg";
+import IMG_GOPUFF_detail4 from "../assets/projects/gopuff/detail4.jpg";
 
-import IMG_Pro8_main from "../assets/projects/project8/main.jpg";
-import IMG_Pro8_detail1 from "../assets/projects/project8/detail1.jpg";
-import IMG_Pro8_detail2 from "../assets/projects/project8/detail2.jpg";
-import IMG_Pro8_detail3 from "../assets/projects/project8/detail3.jpg";
-import IMG_Pro8_detail4 from "../assets/projects/project8/detail4.jpg";
+import IMG_WEAREJUDE_main from "../assets/projects/wearejude/main.jpg";
+import IMG_WEAREJUDE_detail1 from "../assets/projects/wearejude/detail1.jpg";
+import IMG_WEAREJUDE_detail2 from "../assets/projects/wearejude/detail2.jpg";
+import IMG_WEAREJUDE_detail3 from "../assets/projects/wearejude/detail3.jpg";
+import IMG_WEAREJUDE_detail4 from "../assets/projects/wearejude/detail4.jpg";
 
 const Items = [
   {
     id: 1,
-    mainImage: IMG_Pro1_main,
+    mainImage: IMG_DRONEBLOCKS_main,
     img: [
-      IMG_Pro1_detail1,
-      IMG_Pro1_detail2,
-      IMG_Pro1_detail3,
-      IMG_Pro1_detail4,
+      IMG_DRONEBLOCKS_detail1,
+      IMG_DRONEBLOCKS_detail2,
+      IMG_DRONEBLOCKS_detail3,
+      IMG_DRONEBLOCKS_detail4,
     ],
     features: [
       "Drones",
@@ -84,12 +84,12 @@ const Items = [
   },
   {
     id: 2,
-    mainImage: IMG_Pro2_main,
+    mainImage: IMG_DRIVEFLUX_main,
     img: [
-      IMG_Pro2_detail1,
-      IMG_Pro2_detail2,
-      IMG_Pro2_detail3,
-      IMG_Pro2_detail4,
+      IMG_DRIVEFLUX_detail1,
+      IMG_DRIVEFLUX_detail2,
+      IMG_DRIVEFLUX_detail3,
+      IMG_DRIVEFLUX_detail4,
     ],
     features: [
       "Cars",
@@ -126,12 +126,12 @@ const Items = [
   },
   {
     id: 3,
-    mainImage: IMG_Pro3_main,
+    mainImage: IMG_ISLUXURY_main,
     img: [
-      IMG_Pro3_detail1,
-      IMG_Pro3_detail2,
-      IMG_Pro3_detail3,
-      IMG_Pro3_detail4,
+      IMG_ISLUXURY_detail1,
+      IMG_ISLUXURY_detail2,
+      IMG_ISLUXURY_detail3,
+      IMG_ISLUXURY_detail4,
     ],
     features: ["Buy a home", "Sell a home", "Contact", "Join", "Magazine"],
     technologies: [
@@ -150,12 +150,12 @@ const Items = [
   },
   {
     id: 4,
-    mainImage: IMG_Pro4_main,
+    mainImage: IMG_LYFT_main,
     img: [
-      IMG_Pro4_detail1,
-      IMG_Pro4_detail2,
-      IMG_Pro4_detail3,
-      IMG_Pro4_detail4,
+      IMG_LYFT_detail1,
+      IMG_LYFT_detail2,
+      IMG_LYFT_detail3,
+      IMG_LYFT_detail4,
     ],
     features: ["Apply to drive", "Booking to ride", "Business"],
     technologies: [
@@ -178,18 +178,18 @@ const Items = [
     ],
     title: "Lyft",
     description:
-      "The website is about booking car for personal or business purpose. Any people can book a suitable car and any drivers also apply for any cars. The company just offers cars. Then, drivers and riders are free people. We used Node, React, Next.js and mongodb as a tech stack and integrated third party services like Stripe for payment and Mailjet for mail integration.",
+      "The website is about booking car for personal or business purpose. Any people can book a suitable car and any drivers also apply for any cars. The company just offers cars. Then, drivers and riders are free people. We used Node, React, Next.js and MongoDB as a tech stack and integrated third party services like Stripe for payment and Mailjet for mail integration.",
     category: "lending",
     liveLink: "https://www.lyft.com/",
   },
   {
     id: 5,
-    mainImage: IMG_Pro5_main,
+    mainImage: IMG_VRBO_main,
     img: [
-      IMG_Pro5_detail1,
-      IMG_Pro5_detail2,
-      IMG_Pro5_detail3,
-      IMG_Pro5_detail4,
+      IMG_VRBO_detail1,
+      IMG_VRBO_detail2,
+      IMG_VRBO_detail3,
+      IMG_VRBO_detail4,
     ],
     features: [
       "Booking house",
@@ -221,12 +221,12 @@ const Items = [
   },
   {
     id: 6,
-    mainImage: IMG_Pro6_main,
+    mainImage: IMG_MGMRESORTS_main,
     img: [
-      IMG_Pro6_detail1,
-      IMG_Pro6_detail2,
-      IMG_Pro6_detail3,
-      IMG_Pro6_detail4,
+      IMG_MGMRESORTS_detail1,
+      IMG_MGMRESORTS_detail2,
+      IMG_MGMRESORTS_detail3,
+      IMG_MGMRESORTS_detail4,
     ],
     features: [
       "Resorts",
@@ -254,12 +254,12 @@ const Items = [
   },
   {
     id: 7,
-    mainImage: IMG_Pro7_main,
+    mainImage: IMG_GOPUFF_main,
     img: [
-      IMG_Pro7_detail1,
-      IMG_Pro7_detail2,
-      IMG_Pro7_detail3,
-      IMG_Pro7_detail4,
+      IMG_GOPUFF_detail1,
+      IMG_GOPUFF_detail2,
+      IMG_GOPUFF_detail3,
+      IMG_GOPUFF_detail4,
     ],
     features: ["Booking delivery", "Registering locations"],
     technologies: ["Node.js", "Lodash", "React Firebase Hooks", "React Icons"],
@@ -271,12 +271,12 @@ const Items = [
   },
   {
     id: 8,
-    mainImage: IMG_Pro8_main,
+    mainImage: IMG_WEAREJUDE_main,
     img: [
-      IMG_Pro8_detail1,
-      IMG_Pro8_detail2,
-      IMG_Pro8_detail3,
-      IMG_Pro8_detail4,
+      IMG_WEAREJUDE_detail1,
+      IMG_WEAREJUDE_detail2,
+      IMG_WEAREJUDE_detail3,
+      IMG_WEAREJUDE_detail4,
     ],
     features: [
       "Shop All",
