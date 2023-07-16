@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation, Navigate } from "react-router-dom";
-import React, { Suspense, useCallback, useState, useEffect } from "react";
+import React, { Suspense, useCallback } from "react";
 import {
   NotFound,
   Loader,
@@ -27,9 +27,6 @@ function App() {
 
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
-    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(engine);
   }, []);
 
@@ -125,10 +122,10 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/project/:id" element={<ProjectDetails />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="/blog" element={<Blog />}>
+          <Route path="/blog" element={<Blog />}>
             <Route index element={<BlogIndex />} />
             <Route path=":blog_path" element={<BlogDetail />} />
-          </Route> */}
+          </Route>
           <Route path="/404" element={<NotFound />} />
           <Route path="*" element={<Navigate replace to="/404" />}></Route>
           <Route path="/mern-blog" element={<MernBlogRepair />} />

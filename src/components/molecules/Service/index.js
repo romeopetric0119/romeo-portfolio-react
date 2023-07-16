@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { BiPalette } from "react-icons/bi";
+import { BiCloudDownload, BiPalette } from "react-icons/bi";
 import { DiAtom } from "react-icons/di";
-import { FiServer } from "react-icons/fi";
 import {
   headingAnimation,
   sectionBodyAnimation,
@@ -29,49 +28,25 @@ const Service = () => {
       title: "Full Stack Development",
       icon: <DiAtom />,
       description:
-        "As a senior web developer, developed and maintained 9+ robust web applications from scratch.",
+        "As a highly skilled senior web developer, I've implemented and maintained 30+ robust web applications from scratch.",
     },
     {
       id: 2,
-      title: "MERN Development",
-      icon: <FiServer />,
-      description:
-        "I am very proficient in MERN-React/Next, NodeJS, ExpressJS, and MongoDB/MySQL. So I can build full-stack application with MERN.",
-    },
-    {
-      id: 3,
       title: "Responsive Web Design",
       icon: <BiPalette />,
       description:
         "I also provide Fully Responsive Static Website Design with HTML5, CSS, Bootstrap, Ant-Design, Tailwind.",
     },
-    // {
-    //   id: 4,
-    //   title: "Web Management",
-    //   icon: <FiServer />,
-    //   description:
-    //     "I will manage any kinds of website. Data Management, Component management, Service management and so on.",
-    // },
-    // {
-    //   id: 5,
-    //   title: "Backend Development",
-    //   icon: <FiServer />,
-    //   description:
-    //   "MVC Architectural Backend Development with Mongoose (Schema, Model etc) to manage the server easily.",
-    // },
-    // {
-    //   id: 6,
-    //   title: "Database Management",
-    //   icon: <FiServer />,
-    //   description:
-    //     "Connecting Web Database to the server. Fixing All kinds of issue with related to database with database advanced operators.",
-    // },
+    {
+      id: 3,
+      title: "Cloud Computing",
+      icon: <BiCloudDownload />,
+      description:
+        "Cloud Application Development is one of my expertise with over 6+ years of rich experience in DevOps.",
+    },
   ];
   return (
-    <div
-      className="py-20 parent"
-      // style={{ backgroundColor: "#313131" }}
-    >
+    <div className="py-20 parent">
       <motion.div
         className="mb-12"
         initial="hidden"
