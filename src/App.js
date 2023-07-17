@@ -9,8 +9,6 @@ import {
   Footer,
   BlogDetail,
   BlogIndex,
-  MernBlogRepair,
-  EmployeeSalaryManagementRepair,
 } from "./components";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
@@ -128,11 +126,6 @@ function App() {
           </Route>
           <Route path="/404" element={<NotFound />} />
           <Route path="*" element={<Navigate replace to="/404" />}></Route>
-          <Route path="/mern-blog" element={<MernBlogRepair />} />
-          <Route
-            path="/employee-salary-management"
-            element={<EmployeeSalaryManagementRepair />}
-          />
         </Routes>
       </Suspense>
 

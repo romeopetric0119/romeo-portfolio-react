@@ -96,6 +96,9 @@ const About = () => {
             transition: { duration: 1, delay: 1.25 },
           }}
         >
+          <br />
+          <br />
+          <br />
           <h1 className="text-4xl text-black font-bold mb-4 text-center translate-y-[-380%] sm:translate-y-[-0%] sm:text-3xl sm:mb-2 md:text-left">
             ROMEO PETRIC
           </h1>
@@ -126,18 +129,6 @@ const About = () => {
             Seeking opportunities to contribute to a forward-thinking
             organization.
           </p>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left text-black">
-            <a href="#" target="blank">
-              <div className="flex justify-center md:justify-start translate-y-[60%] sm:translate-y-[-0%]">
-                <button className="primary-button">
-                  <span>My Resume</span>
-                  <span>
-                    <FaDownload />
-                  </span>
-                </button>
-              </div>
-            </a>
-          </div>
         </motion.div>
       </Panel>
       {/* My Skill */}

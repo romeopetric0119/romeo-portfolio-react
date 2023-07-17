@@ -42,7 +42,7 @@ const Service = () => {
       title: "Cloud Computing",
       icon: <BiCloudDownload />,
       description:
-        "Cloud Application Development is one of my expertise with over 6+ years of rich experience in DevOps.",
+        "Cloud Application Development is one of my expertise with over 5+ years of DevOps experience.",
     },
   ];
   return (

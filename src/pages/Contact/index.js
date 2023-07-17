@@ -5,8 +5,6 @@ import "../shared/Shared.css";
 import { motion, useAnimation } from "framer-motion";
 import {
   FaUserAlt,
-  FaPhoneAlt,
-  FaLocationArrow,
   FaLinkedin,
   FaGithubSquare,
   FaTwitterSquare,
@@ -19,6 +17,7 @@ import { useNavigate } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 import { headingAnimation, contactAnimation } from "../../hooks/useAnimation";
 import { BottomLine } from "../../components";
+import { SlLocationPin } from "react-icons/sl";
 
 const Contact = () => {
   const navigate = useNavigate();
@@ -39,10 +38,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_ce2gowg",
-        "template_3cmc47d",
+        "service_rht6kor",
+        "template_gku5ha8",
         form.current,
-        "LL0ZqHo1wyJH8QMuA"
+        "93QN-mPLmBAoFZNNM"
       )
       .then(
         (result) => {
@@ -76,7 +75,7 @@ const Contact = () => {
         <BottomLine />
       </motion.div>
       <iframe
-        src="https://maps.google.com/maps?q=13+Admiral+Rd,+Toronto,+ON+M5R+2L4,+Canada&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Strada Chizid 7-1&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
         frameborder="0"
         style={{ width: "100%", height: "450px", border: "0px" }}
         className="my-12"
@@ -159,10 +158,10 @@ const Contact = () => {
             </h3>
           </div>
           <div className="flex items-center my-6">
-            <FaLocationArrow className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaLocationArrow>
+            <SlLocationPin className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></SlLocationPin>
 
             <h3 className="font-medium text-primary">
-              San Juan 2 10851 Int. 52, Tijuana, Mexico
+              Strada Chizid 7-1, Hunedoara, Romania
             </h3>
           </div>
           <div className="mt-8 flex items-center">
@@ -181,6 +180,20 @@ const Contact = () => {
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
               <FaGithubSquare></FaGithubSquare>
+            </a>
+            <a
+              href="#"
+              target="blank"
+              className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
+            >
+              <FaTwitterSquare></FaTwitterSquare>
+            </a>
+            <a
+              href="#"
+              target="blank"
+              className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
+            >
+              <FaInstagramSquare></FaInstagramSquare>
             </a>
           </div>
         </motion.div>

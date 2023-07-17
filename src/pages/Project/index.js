@@ -25,18 +25,28 @@ const Project = () => {
     } else {
       setViewDiv(false);
     }
-    if (location.pathname === "/" && items.length > 3) {
-      setItems(items.slice(0, 3));
+    if (location.pathname === "/" && items.length > 6) {
+      setItems(items.slice(0, 6));
     }
   }, [inView, animation, location, items]);
 
   const filterItem = (category) => {
     const filtered = Items.filter((item) => item.category === category);
     setItems(filtered);
-    if (filtered.length > 3 && location.pathname === "/") {
-      setItems(filtered.slice(0, 3));
+    if (filtered.length > 6 && location.pathname === "/") {
+      setItems(filtered.slice(0, 6));
     }
   };
+
+  const projectCategory = [
+    "banking",
+    "marketing",
+    "booking",
+    "lending",
+    "education",
+    "healthcare",
+    "other",
+  ];
 
   return (
     <div className={`${location.pathname !== "/" && "pt-16"}`}>
@@ -71,67 +81,25 @@ const Project = () => {
               onClick={() => {
                 setActiveBtn("all");
                 location.pathname === "/"
-                  ? setItems(Items.slice(0, 3))
+                  ? setItems(Items.slice(0, 6))
                   : setItems(Items);
               }}
             >
               All
             </button>
-            <button
-              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
-                activeBtn === "marketing" && "active-btn"
-              }`}
-              onClick={() => {
-                setActiveBtn("marketing");
-                filterItem("marketing");
-              }}
-            >
-              Marketing
-            </button>
-            <button
-              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
-                activeBtn === "booking" && "active-btn"
-              }`}
-              onClick={() => {
-                setActiveBtn("booking");
-                filterItem("booking");
-              }}
-            >
-              Booking
-            </button>
-            <button
-              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
-                activeBtn === "lending" && "active-btn"
-              }`}
-              onClick={() => {
-                setActiveBtn("lending");
-                filterItem("lending");
-              }}
-            >
-              Lending
-            </button>
-            <button
-              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
-                activeBtn === "education" && "active-btn"
-              }`}
-              onClick={() => {
-                setActiveBtn("education");
-                filterItem("education");
-              }}
-            >
-              Education
-            </button>
-            <button
-              className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
-                activeBtn === "healthcare" && "active-btn"
-              }`}
-              onClick={() => {
-                setActiveBtn("healthcare");
-                filterItem("healthcare");
-              }}
-            >
-              Healthcare
-            </button>
+            {projectCategory.map((category) => (
+              <button
+                className={`btn btn-sm bg-primary border-2 border-primary text-white hover:bg-transparent hover:border-primary duration-300 mx-3 my-3 sm:my-0 ${
+                  activeBtn === category && "active-btn"
+                }`}
+                onClick={() => {
+                  setActiveBtn(category);
+                  filterItem(category);
+                }}
+              >
+                {category}
+              </button>
+            ))}
           </div>
 
           {/* Items Card */}

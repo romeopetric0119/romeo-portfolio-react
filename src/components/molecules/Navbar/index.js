@@ -6,13 +6,12 @@ import {
   RiFolderInfoFill,
 } from "react-icons/ri";
 import { GiCrossMark } from "react-icons/gi";
-import { FaHome, FaDownload } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
 import { ImBlog } from "react-icons/im";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import "../../../pages/shared/Shared.css";
-import { PrimaryBtn } from "../../../components";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -25,12 +24,12 @@ export default function Navbar() {
     { title: "About", link: "/about", icon: <RiFolderInfoFill /> },
     { title: "Project", link: "/project", icon: <MdWork /> },
     { title: "Contact", link: "/contact", icon: <RiContactsBook2Fill /> },
-    // { title: "Blog", link: "/blog", icon: <ImBlog /> },
+    { title: "Blog", link: "/blog", icon: <ImBlog /> },
   ];
   const activeLink = ({ isActive }) => {
     return {
       fontWeight: 500,
-      color: isActive && "#FF651C",
+      color: isActive && "#f84252",
     };
   };
 
@@ -80,19 +79,6 @@ export default function Navbar() {
                 </NavLink>
               </li>
             ))}
-
-            <a
-              className="inline-block ml-4"
-              href="https://drive.google.com/file/d/1uLZSGwlWB1hLBKd1C5q0AGrlMIhQKNGp/view?usp=drive_link"
-              target="blank"
-            >
-              <PrimaryBtn>
-                <span>Resume</span>
-                <span>
-                  <FaDownload />
-                </span>
-              </PrimaryBtn>
-            </a>
           </ul>
           <div className="block lg:hidden">
             <button onClick={toggleDrawer} className="btn btn-ghost text-white">
@@ -128,20 +114,6 @@ export default function Navbar() {
                     </NavLink>
                   </li>
                 ))}
-                <li className="text-center m-4">
-                  <a
-                    className="inline-block w-full"
-                    href="https://drive.google.com/file/d/1uLZSGwlWB1hLBKd1C5q0AGrlMIhQKNGp/view?usp=drive_link"
-                    target="blank"
-                  >
-                    <button className="primary-button w-full text-white">
-                      <span>Resume</span>
-                      <span>
-                        <FaDownload />
-                      </span>
-                    </button>
-                  </a>
-                </li>
               </ul>
               <div className="text-center">
                 <p className="text-neutral">
