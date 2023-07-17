@@ -12,7 +12,7 @@ module.exports = {
     themes: [
       {
         mytheme: {
-          primary: "#FF651C",
+          error: "#FF651C",
           secondary: "#ec4899",
           accent: "#212121",
           neutral: "#9ca3af",
@@ -20,7 +20,7 @@ module.exports = {
           info: "#3ABFF8",
           success: "#36D399",
           warning: "#FBBD23",
-          error: "#f87272",
+          primary: "#f84252",
         },
       },
     ],

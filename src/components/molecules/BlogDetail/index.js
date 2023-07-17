@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { FiExternalLink } from "react-icons/fi";
-import { SiLinkedin, SiInstagram } from "react-icons/si";
+import { SiLinkedin } from "react-icons/si";
 import {
   EmailShareButton,
   EmailIcon,
@@ -61,19 +61,6 @@ const BlogDetail = () => {
         <div className="md:col-span-2 lg:col-span-1 px-4 py-6 rounded shadow-lg">
           <div className="">
             <h4 className="text-lg font-medium mb-3">Other :</h4>
-            <p className="flex items-center gap-3">
-              <span>
-                <SiInstagram />
-              </span>
-              <a
-                href={blog?.instagram_link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline flex items-center"
-              >
-                <span>Instagram</span> <FiExternalLink />
-              </a>
-            </p>
             <p className="flex items-center gap-3">
               <span>
                 <SiLinkedin />

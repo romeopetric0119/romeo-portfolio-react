@@ -84,14 +84,6 @@ const Banner = () => {
           </p>
 
           <div className="flex items-center translate-y-[-60%] sm:translate-y-[-0%]">
-            <a href="#" target="blank">
-              <button className="primary-button">
-                <span>My Resume</span>
-                <span>
-                  <FaDownload />
-                </span>
-              </button>
-            </a>
             <Link to="/about" className="ml-4">
               <button className="btn text-neutral flex items-center gap-2 border-2 border-primary bg-transparent hover:bg-primary hover:text-white hover:border-transparent duration-500">
                 <span>About Me</span>

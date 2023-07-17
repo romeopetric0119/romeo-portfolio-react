@@ -35,7 +35,7 @@ const Qualification = () => {
               </h3>
               <p className="text-sm text-neutral font-semibold">06/2018</p>
             </div>
-            <p className="text-sm text-neutral text-justify">
+            <p className="text-sm text-neutral">
               I have successfully completed the <b>CIW</b> from Certification
               Partners.
             </p>
@@ -47,7 +47,7 @@ const Qualification = () => {
               </h3>
               <p className="text-sm text-neutral font-semibold">04/2018</p>
             </div>
-            <p className="text-sm text-neutral text-justify">
+            <p className="text-sm text-neutral">
               I have successfully completed the <b>CCSS</b> from Certification
               Partners.
             </p>
@@ -59,7 +59,7 @@ const Qualification = () => {
               </h3>
               <p className="text-sm text-neutral font-semibold">08/2015</p>
             </div>
-            <p className="text-sm text-neutral text-justify">
+            <p className="text-sm text-neutral">
               I have successfully completed the{" "}
               <b>Standard English/Western Certification</b> from British Council
               IELTS
