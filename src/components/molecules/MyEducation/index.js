@@ -9,7 +9,7 @@ import { FaUniversity, FaHourglassStart } from "react-icons/fa";
 import { SlLocationPin } from "react-icons/sl";
 import education from "../../../assets/lottie/education.json";
 
-import IMG_UNI1 from "../../../assets/university/1.jpg";
+import IMG_UNI1 from "../../../assets/university/1605709782048.jpg";
 
 const Education = () => {
   const defaultOptions = {
@@ -57,7 +57,7 @@ const Education = () => {
               className="vertical-timeline-element-title font-bold"
               style={{ color: "white" }}
             >
-              University of Bucharest
+              Nicolae Titulescu University of Bucharest
             </h2>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -66,12 +66,6 @@ const Education = () => {
               B.S. in Computer Science&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <SlLocationPin />
               &nbsp;Bucharest, Romania
-            </h4>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              style={{ display: "flex", alignItems: "center" }}
-            >
-              GPA 3.9 / 4.0
             </h4>
           </VerticalTimelineElement>
           <VerticalTimelineElement

@@ -31,39 +31,29 @@ const Qualification = () => {
           <div className="p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
             <div className="text-right mb-4">
               <h3 className="text-2xl font-semibold text-primary">
-                Certified Internet Webmaster Web Developer (CIW)
+                Front End Development Libraries Certification
               </h3>
-              <p className="text-sm text-neutral font-semibold">06/2018</p>
+              <p className="text-sm text-neutral font-semibold"></p>
             </div>
-            <p className="text-sm text-neutral">
-              I have successfully completed the <b>CIW</b> from Certification
-              Partners.
-            </p>
+            <p className="text-sm text-neutral">freeCodeCamp</p>
           </div>
           <div className="my-6 md:my-4 md:ml-[200px] p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
             <div className="text-right mb-4">
               <h3 className="text-2xl font-semibold text-primary">
-                Certified Computer Skills Specialist(CCSS)
+                JavaScript Algorithms and Data Structures Certification
               </h3>
-              <p className="text-sm text-neutral font-semibold">04/2018</p>
+              <p className="text-sm text-neutral font-semibold"></p>
             </div>
-            <p className="text-sm text-neutral">
-              I have successfully completed the <b>CCSS</b> from Certification
-              Partners.
-            </p>
+            <p className="text-sm text-neutral">freeCodeCamp</p>
           </div>
           <div className="p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
             <div className="text-right mb-4">
               <h3 className="text-2xl font-semibold text-primary">
-                Standard English/Western Certification
+                MongoDB for Javascript Developers Certification
               </h3>
-              <p className="text-sm text-neutral font-semibold">08/2015</p>
+              <p className="text-sm text-neutral font-semibold"></p>
             </div>
-            <p className="text-sm text-neutral">
-              I have successfully completed the{" "}
-              <b>Standard English/Western Certification</b> from British Council
-              IELTS
-            </p>
+            <p className="text-sm text-neutral">MongoDB University</p>
           </div>
         </div>
       </div>

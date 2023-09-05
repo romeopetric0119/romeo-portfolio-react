@@ -31,11 +31,11 @@ const Experience = () => {
       background: "rgb(33, 150, 243)",
       title: "NTT DATA UK&I",
       job: "Senior Web Developer",
-      start: "04/2021",
-      end: "05/2023",
+      start: "05/2021",
+      end: "06/2023",
       position: "London, UK",
       description:
-        "I worked remotely as a Senior Developer at NTT DATA UK&I leading a team of 5 developers and spearheading the web development.",
+        "I worked remotely as a Senior Full Stack Developer at NTT DATA UK&I leading a team of remote developers technically and spearheading the web development.",
     },
     {
       image: IMG_COM2,
@@ -43,7 +43,7 @@ const Experience = () => {
       title: "Idea",
       job: "Full Stack Developer",
       start: "03/2020",
-      end: "02/2021",
+      end: "04/2021",
       position: "London, UK",
       description:
         "I worked remotely as a Full Stack Developer here responsible for development, UI/UX design and product evolution",
@@ -54,7 +54,7 @@ const Experience = () => {
       title: "SII Romania",
       job: "Web Developer",
       start: "10/2016",
-      end: "12/2019",
+      end: "02/2020",
       position: "Bucharest, Romania",
       description:
         "I worked as a web developer here focusing on 60% of frontend side and 40% of backend side.",
@@ -64,8 +64,8 @@ const Experience = () => {
       background: "rgb(243, 33, 150)",
       title: "Integrisoft Solutions",
       job: "Software Engineer Intern",
-      start: "10/2015",
-      end: "08/2016",
+      start: "09/2015",
+      end: "10/2016",
       position: "Bucharest, Romania",
       description:
         "I started my career here, and gained valuable experience in software development.",

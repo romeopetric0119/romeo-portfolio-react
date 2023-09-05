@@ -47,6 +47,18 @@ import {
   SiMicrosoftsqlserver,
   SiHtml5,
   SiCss3,
+  SiNuxtdotjs,
+  SiWordpress,
+  SiMobx,
+  SiPhp,
+  SiShopify,
+  SiWix,
+  SiAwslambda,
+  SiAmazons3,
+  SiAmazondynamodb,
+  SiAmazonec2,
+  SiCsharp,
+  SiMaterialdesign,
 } from "react-icons/si";
 import man from "../../../assets/lottie/man.json";
 
@@ -73,12 +85,20 @@ const MySkill = () => {
           icon: <SiCplusplus className="text-blue-300 rounded" />,
         },
         {
+          title: "PHP",
+          icon: <SiPhp className="text-blue-400 rounded" />,
+        },
+        {
           title: "Python",
           icon: <SiPython className="text-yellow-600 rounded" />,
         },
         {
           title: "Java",
           icon: <FaJava className="text-red-500 rounded" />,
+        },
+        {
+          title: "C#",
+          icon: <SiCsharp className="text-purple-600 rounded" />,
         },
       ],
     },
@@ -89,29 +109,16 @@ const MySkill = () => {
         { title: "Angular", icon: <SiAngular className="text-red-600" /> },
         { title: "Vue.js", icon: <SiVuedotjs className="text-green-600" /> },
         { title: "Next.js", icon: <SiNextdotjs className="text-black" /> },
+        { title: "Nuxt.js", icon: <SiNuxtdotjs className="text-green-800" /> },
+        { title: "Redux", icon: <SiRedux className="text-purple-300" /> },
         {
           title: "Backbone.js",
           icon: <SiBackbonedotjs className="text-cyan-600" />,
         },
-        { title: "Redux", icon: <SiRedux className="text-purple-300" /> },
         {
-          title: "Styled-component",
-          icon: <SiStyledcomponents className="text-yellow-600" />,
+          title: "MobX",
+          icon: <SiMobx className="text-orange-600" />,
         },
-        {
-          title: "Ant-Design",
-          icon: <SiAntdesign className="text-blue-400" />,
-        },
-        {
-          title: "Bootstrap",
-          icon: <SiBootstrap className="text-indigo-600" />,
-        },
-        {
-          title: "Tailwind",
-          icon: <SiTailwindcss className="text-cyan-400" />,
-        },
-        { title: "Sass", icon: <SiSass className="text-purple-400" /> },
-        { title: "Less", icon: <SiLess className="text-cyan-400" /> },
       ],
     },
     {
@@ -128,6 +135,50 @@ const MySkill = () => {
         {
           title: "Go",
           icon: <SiGo className="text-cyan-300" />,
+        },
+      ],
+    },
+    {
+      title: "CMS Platform",
+      detail: [
+        {
+          title: "WordPress",
+          icon: <SiWordpress className="text-black" />,
+        },
+        {
+          title: "Shopify",
+          icon: <SiShopify className="text-green-500" />,
+        },
+        {
+          title: "Wix",
+          icon: <SiWix className="text-black" />,
+        },
+      ],
+    },
+    {
+      title: "UI Templates",
+      detail: [
+        {
+          title: "Bootstrap",
+          icon: <SiBootstrap className="text-indigo-600" />,
+        },
+        { title: "Sass", icon: <SiSass className="text-purple-400" /> },
+        { title: "Less", icon: <SiLess className="text-cyan-400" /> },
+        {
+          title: "Tailwind",
+          icon: <SiTailwindcss className="text-cyan-400" />,
+        },
+        {
+          title: "Styled-component",
+          icon: <SiStyledcomponents className="text-yellow-600" />,
+        },
+        {
+          title: "Ant-Design",
+          icon: <SiAntdesign className="text-blue-400" />,
+        },
+        {
+          title: "MaterialUI",
+          icon: <SiMaterialdesign className="text-blue-600" />,
         },
       ],
     },
@@ -171,7 +222,23 @@ const MySkill = () => {
       detail: [
         {
           title: "AWS",
-          icon: <SiAmazonaws className="text-black" />,
+          icon: <SiAmazonaws className="text-yellow-700" />,
+        },
+        {
+          title: "Amazon Lambda",
+          icon: <SiAwslambda className="text-orange-400" />,
+        },
+        {
+          title: "Amazon S3",
+          icon: <SiAmazons3 className="text-red-700" />,
+        },
+        {
+          title: "Amazon EC2",
+          icon: <SiAmazonec2 className="text-orange-600" />,
+        },
+        {
+          title: "Amazon DynamoDB",
+          icon: <SiAmazondynamodb className="text-blue-800" />,
         },
         {
           title: "Google Cloud Platform",
