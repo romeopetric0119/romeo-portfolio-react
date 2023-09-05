@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="flex items-center justify-center mb-6">
           <a
             className="inline-block mx-2"
-            href="https://www.linkedin.com/in/romeo-petric-79909b281/"
+            href="https://www.linkedin.com/in/romeopetric0119"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
           <a
             className="inline-block mx-2"
-            href="https://www.github.com/techexpert11"
+            href="https://www.github.com/techexpert0119"
             target="_blank"
             rel="noopener noreferrer"
           >
