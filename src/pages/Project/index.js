@@ -39,8 +39,7 @@ const Project = () => {
   };
 
   const projectCategory = [
-    "banking",
-    "marketing",
+    "e-commerce",
     "booking",
     "lending",
     "education",

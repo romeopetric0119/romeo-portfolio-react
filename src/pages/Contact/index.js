@@ -9,6 +9,9 @@ import {
   FaGithubSquare,
   FaTwitterSquare,
   FaInstagramSquare,
+  FaGitlab,
+  FaStackOverflow,
+  FaGithub,
 } from "react-icons/fa";
 import { MdEmail, MdSend } from "react-icons/md";
 import emailjs from "@emailjs/browser";
@@ -168,7 +171,7 @@ const Contact = () => {
             <h3 className="text-xl text-neutral">Social</h3>
             <div className="bg-gray-400 w-10 h-[2px] mx-4"></div>
             <a
-              href="https://www.linkedin.com/in/romeopetric0119"
+              href="https://www.linkedin.com/in/romeopetric11/"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
@@ -179,21 +182,21 @@ const Contact = () => {
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
-              <FaGithubSquare></FaGithubSquare>
+              <FaGithub></FaGithub>
             </a>
             <a
-              href="#"
+              href="https://stackoverflow.com/users/22476151/techexpert0119"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
-              <FaTwitterSquare></FaTwitterSquare>
+              <FaStackOverflow></FaStackOverflow>
             </a>
             <a
-              href="#"
+              href="https://gitlab.com/techexpert0119"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
-              <FaInstagramSquare></FaInstagramSquare>
+              <FaGitlab></FaGitlab>
             </a>
           </div>
         </motion.div>

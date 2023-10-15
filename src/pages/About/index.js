@@ -107,9 +107,9 @@ const About = () => {
               className="text-2xl text-primary font-bold text-center translate-y-[-500%] sm:translate-y-[-0%]  sm:text-2xl sm:mb-2 md:text-left"
               cursor={true}
               sequence={[
-                "Senior Web Developer",
+                "Senior Full Stack Developer",
                 2000,
-                "Proficient in Web Development",
+                "Proficient in Web/Mobile Development",
                 2000,
               ]}
               wrapper="div"
@@ -117,17 +117,11 @@ const About = () => {
             />
           </div>
           <p className="text-neutral font-medium text-center translate-y-[-100%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
-            Highly skilled Senior Web Developer with 9+ years of hands-on
-            experience in designing, developing, and implementing web
-            applications and solutions using a wide range of technical stacks
-            and programming languages. Committed to delivering high-quality
-            software solutions and staying updated with industry trends. Strong
-            leadership, problem-solving, and coding abilities.
+          Experienced Senior Full-Stack Developer with 9+ years of expertise in designing, developing, and implementing cutting-edge web/mobile applications and solutions. Proficient in multiple technical stacks and programming languages, I thrive in fast-paced environments and excel at delivering high-quality software solutions. Adept at staying abreast of industry trends and continuously enhancing skills to ensure optimal performance. Demonstrated leadership skills and a proven track record of leading successful development teams. Known for my problem-solving abilities and meticulous attention to detail. 
           </p>
           <br />
           <p className="text-neutral font-medium text-center translate-y-[-150%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
-            Seeking opportunities to contribute to a forward-thinking
-            organization.
+          Seeking to leverage my expertise and contribute to the growth of a forward-thinking organization at the forefront of technology.
           </p>
         </motion.div>
       </Panel>
