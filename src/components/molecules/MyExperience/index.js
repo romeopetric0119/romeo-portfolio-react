@@ -32,7 +32,7 @@ const Experience = () => {
       title: "NTT DATA UK&I",
       job: "Senior Web Developer",
       start: "05/2021",
-      end: "06/2023",
+      end: "08/2023",
       position: "London, UK",
       description:
         "I worked remotely as a Senior Full Stack Developer at NTT DATA UK&I leading a team of remote developers technically and spearheading the web development.",
@@ -64,7 +64,7 @@ const Experience = () => {
       background: "rgb(243, 33, 150)",
       title: "Integrisoft Solutions",
       job: "Software Engineer Intern",
-      start: "09/2015",
+      start: "05/2015",
       end: "10/2016",
       position: "Bucharest, Romania",
       description:
