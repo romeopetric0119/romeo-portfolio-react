@@ -65,9 +65,9 @@ const Banner = () => {
               className="text-2xl text-primary font-bold translate-y-[-80%] sm:translate-y-[-0%]"
               cursor={true}
               sequence={[
-                "Senior Web Developer",
+                "Senior Full Stack Developer",
                 2000,
-                "Proficient in Web Development",
+                "Proficient in Web/Mobile Development",
                 2000,
               ]}
               wrapper="div"
@@ -75,15 +75,21 @@ const Banner = () => {
             />
           </div>
           <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%]">
-            Highly skilled Senior Web Developer with 9+ years of hands-on
-            experience in designing, developing, and implementing web
-            applications and solutions using a wide range of technical stacks
-            and programming languages. Committed to delivering high-quality
-            software solutions and staying updated with industry trends. Strong
-            leadership, problem-solving, and coding abilities.
+          Experienced Senior Full-Stack Developer with 9+ years of expertise in designing, developing, and implementing cutting-edge web/mobile applications and solutions. Proficient in multiple technical stacks and programming languages, I thrive in fast-paced environments and excel at delivering high-quality software solutions. Adept at staying abreast of industry trends and continuously enhancing skills to ensure optimal performance. Demonstrated leadership skills and a proven track record of leading successful development teams. Known for my problem-solving abilities and meticulous attention to detail.
           </p>
 
           <div className="flex items-center translate-y-[-60%] sm:translate-y-[-0%]">
+            <a
+              href="https://drive.google.com/file/d/1Yy8FmkcO5tMrgDWEsk4i_06f6hi0JT8i/view?usp=drive_link"
+              target="blank"
+            >
+              <button className="primary-button">
+                <span>My Resume</span>
+                <span>
+                  <FaDownload />
+                </span>
+              </button>
+            </a>
             <Link to="/about" className="ml-4">
               <button className="btn text-neutral flex items-center gap-2 border-2 border-primary bg-transparent hover:bg-primary hover:text-white hover:border-transparent duration-500">
                 <span>About Me</span>

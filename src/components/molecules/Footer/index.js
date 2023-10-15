@@ -1,6 +1,5 @@
 import React from "react";
-import { FaTwitter, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import { SiInstagram, SiTwitter } from "react-icons/si";
+import { FaLinkedin, FaGithub, FaGitlab, FaStackOverflow } from "react-icons/fa";
 
 const Footer = () => {
   const year = new Date();
@@ -14,7 +13,7 @@ const Footer = () => {
         <div className="flex items-center justify-center mb-6">
           <a
             className="inline-block mx-2"
-            href="https://www.linkedin.com/in/romeopetric0119"
+            href="https://www.linkedin.com/in/romeopetric11"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -27,22 +26,6 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <FaGithub className="text-2xl text-black" />
-          </a>
-          <a
-            className="inline-block mx-2"
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <SiTwitter className="text-2xl text-cyan-500" />
-          </a>
-          <a
-            className="inline-block mx-2"
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <SiInstagram className="text-2xl text-red-600" />
           </a>
         </div>
 
