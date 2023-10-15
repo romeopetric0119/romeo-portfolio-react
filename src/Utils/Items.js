@@ -1,14 +1,23 @@
-import IMG_DRONEBLOCKS_main from "../assets/projects/droneblocks/main.jpg";
-import IMG_DRONEBLOCKS_detail1 from "../assets/projects/droneblocks/detail1.jpg";
-import IMG_DRONEBLOCKS_detail2 from "../assets/projects/droneblocks/detail2.jpg";
-import IMG_DRONEBLOCKS_detail3 from "../assets/projects/droneblocks/detail3.jpg";
-import IMG_DRONEBLOCKS_detail4 from "../assets/projects/droneblocks/detail4.jpg";
+import IMG_1800lostdog_main from "../assets/projects/1800lostdog/main.jpg";
+import IMG_1800lostdog_detail1 from "../assets/projects/1800lostdog/detail1.jpg";
+import IMG_1800lostdog_detail2 from "../assets/projects/1800lostdog/detail2.jpg";
 
 import IMG_DRIVEFLUX_main from "../assets/projects/driveflux/main.jpg";
 import IMG_DRIVEFLUX_detail1 from "../assets/projects/driveflux/detail1.jpg";
 import IMG_DRIVEFLUX_detail2 from "../assets/projects/driveflux/detail2.jpg";
 import IMG_DRIVEFLUX_detail3 from "../assets/projects/driveflux/detail3.jpg";
 import IMG_DRIVEFLUX_detail4 from "../assets/projects/driveflux/detail4.jpg";
+
+import IMG_DRONEBLOCKS_main from "../assets/projects/droneblocks/main.jpg";
+import IMG_DRONEBLOCKS_detail1 from "../assets/projects/droneblocks/detail1.jpg";
+import IMG_DRONEBLOCKS_detail2 from "../assets/projects/droneblocks/detail2.jpg";
+import IMG_DRONEBLOCKS_detail3 from "../assets/projects/droneblocks/detail3.jpg";
+import IMG_DRONEBLOCKS_detail4 from "../assets/projects/droneblocks/detail4.jpg";
+
+import IMG_eq3_main from "../assets/projects/eq3/main.jpg";
+import IMG_eq3_detail1 from "../assets/projects/eq3/detail1.jpg";
+import IMG_eq3_detail2 from "../assets/projects/eq3/detail2.jpg";
+import IMG_eq3_detail3 from "../assets/projects/eq3/detail3.jpg";
 
 import IMG_ISLUXURY_main from "../assets/projects/isluxury/main.jpg";
 import IMG_ISLUXURY_detail1 from "../assets/projects/isluxury/detail1.jpg";
@@ -22,11 +31,10 @@ import IMG_LYFT_detail2 from "../assets/projects/lyft/detail2.jpg";
 import IMG_LYFT_detail3 from "../assets/projects/lyft/detail3.jpg";
 import IMG_LYFT_detail4 from "../assets/projects/lyft/detail4.jpg";
 
-import IMG_VRBO_main from "../assets/projects/vrbo/main.jpg";
-import IMG_VRBO_detail1 from "../assets/projects/vrbo/detail1.jpg";
-import IMG_VRBO_detail2 from "../assets/projects/vrbo/detail2.jpg";
-import IMG_VRBO_detail3 from "../assets/projects/vrbo/detail3.jpg";
-import IMG_VRBO_detail4 from "../assets/projects/vrbo/detail4.jpg";
+import IMG_MAISONULLENS_main from "../assets/projects/maisonullens/main.jpg";
+import IMG_MAISONULLENS_detail1 from "../assets/projects/maisonullens/detail1.jpg";
+import IMG_MAISONULLENS_detail2 from "../assets/projects/maisonullens/detail2.jpg";
+import IMG_MAISONULLENS_detail3 from "../assets/projects/maisonullens/detail3.jpg";
 
 import IMG_MGMRESORTS_main from "../assets/projects/mgmresorts/main.jpg";
 import IMG_MGMRESORTS_detail1 from "../assets/projects/mgmresorts/detail1.jpg";
@@ -34,11 +42,16 @@ import IMG_MGMRESORTS_detail2 from "../assets/projects/mgmresorts/detail2.jpg";
 import IMG_MGMRESORTS_detail3 from "../assets/projects/mgmresorts/detail3.jpg";
 import IMG_MGMRESORTS_detail4 from "../assets/projects/mgmresorts/detail4.jpg";
 
-import IMG_GOPUFF_main from "../assets/projects/gopuff/main.jpg";
-import IMG_GOPUFF_detail1 from "../assets/projects/gopuff/detail1.jpg";
-import IMG_GOPUFF_detail2 from "../assets/projects/gopuff/detail2.jpg";
-import IMG_GOPUFF_detail3 from "../assets/projects/gopuff/detail3.jpg";
-import IMG_GOPUFF_detail4 from "../assets/projects/gopuff/detail4.jpg";
+import IMG_sortjoy_main from "../assets/projects/sortjoy/main.jpg";
+import IMG_sortjoy_detail1 from "../assets/projects/sortjoy/detail1.jpg";
+import IMG_sortjoy_detail2 from "../assets/projects/sortjoy/detail2.jpg";
+import IMG_sortjoy_detail3 from "../assets/projects/sortjoy/detail3.jpg";
+
+import IMG_voyageconsultant_main from "../assets/projects/voyageconsultant/main.jpg";
+import IMG_voyageconsultant_detail1 from "../assets/projects/voyageconsultant/detail1.jpg";
+import IMG_voyageconsultant_detail2 from "../assets/projects/voyageconsultant/detail2.jpg";
+import IMG_voyageconsultant_detail3 from "../assets/projects/voyageconsultant/detail3.jpg";
+import IMG_voyageconsultant_detail4 from "../assets/projects/voyageconsultant/detail4.jpg";
 
 import IMG_WEAREJUDE_main from "../assets/projects/wearejude/main.jpg";
 import IMG_WEAREJUDE_detail1 from "../assets/projects/wearejude/detail1.jpg";
@@ -46,67 +59,61 @@ import IMG_WEAREJUDE_detail2 from "../assets/projects/wearejude/detail2.jpg";
 import IMG_WEAREJUDE_detail3 from "../assets/projects/wearejude/detail3.jpg";
 import IMG_WEAREJUDE_detail4 from "../assets/projects/wearejude/detail4.jpg";
 
-import IMG_VISTABANK_main from "../assets/projects/vistabank/main.jpg";
-import IMG_VISTABANK_detail1 from "../assets/projects/vistabank/detail1.jpg";
-import IMG_VISTABANK_detail2 from "../assets/projects/vistabank/detail2.jpg";
-import IMG_VISTABANK_detail3 from "../assets/projects/vistabank/detail3.jpg";
-
-import IMG_MENTIONME_main from "../assets/projects/mentionme/main.jpg";
-import IMG_MENTIONME_detail1 from "../assets/projects/mentionme/detail1.jpg";
-import IMG_MENTIONME_detail2 from "../assets/projects/mentionme/detail2.jpg";
-import IMG_MENTIONME_detail3 from "../assets/projects/mentionme/detail3.jpg";
-
-import IMG_STAMPSY_main from "../assets/projects/stampsy/main.jpg";
-import IMG_STAMPSY_detail1 from "../assets/projects/stampsy/detail1.jpg";
-import IMG_STAMPSY_detail2 from "../assets/projects/stampsy/detail2.jpg";
-import IMG_STAMPSY_detail3 from "../assets/projects/stampsy/detail3.jpg";
-
-import IMG_MAISONULLENS_main from "../assets/projects/maisonullens/main.jpg";
-import IMG_MAISONULLENS_detail1 from "../assets/projects/maisonullens/detail1.jpg";
-import IMG_MAISONULLENS_detail2 from "../assets/projects/maisonullens/detail2.jpg";
-import IMG_MAISONULLENS_detail3 from "../assets/projects/maisonullens/detail3.jpg";
-
-import IMG_VERBLING_main from "../assets/projects/verbling/main.jpg";
-import IMG_VERBLING_detail1 from "../assets/projects/verbling/detail1.jpg";
-import IMG_VERBLING_detail2 from "../assets/projects/verbling/detail2.jpg";
-import IMG_VERBLING_detail3 from "../assets/projects/verbling/detail3.jpg";
+import IMG_yellowpop_main from "../assets/projects/yellowpop/main.jpg";
+import IMG_yellowpop_detail1 from "../assets/projects/yellowpop/detail1.jpg";
+import IMG_yellowpop_detail2 from "../assets/projects/yellowpop/detail2.jpg";
+import IMG_yellowpop_detail3 from "../assets/projects/yellowpop/detail3.jpg";
+import IMG_yellowpop_detail4 from "../assets/projects/yellowpop/detail4.jpg";
+import IMG_yellowpop_detail5 from "../assets/projects/yellowpop/detail5.jpg";
 
 const Items = [
   {
     id: 1,
-    mainImage: IMG_MENTIONME_main,
-    img: [IMG_MENTIONME_detail1, IMG_MENTIONME_detail2, IMG_MENTIONME_detail3],
+    mainImage: IMG_1800lostdog_main,
+    img: [IMG_1800lostdog_detail1, IMG_1800lostdog_detail2],
     features: [
-      "Sing In/Up",
-      "Resources",
-      "Products",
-      "Customer Stories",
-      "Events",
-      "Blog",
-      "Product",
-      "About",
     ],
     technologies: [
-      "Angular",
-      "AG Grid",
-      "Bootstrap",
-      "Tailwind CSS",
-      "Material-UI",
-      "lodash",
-      "Node.js",
-      "Express",
-      "MySQL",
-      "Sequelize",
-      "AWS",
+      "WordPress", "Vue", "Bootstrap", "Moment.js", "Ajax", "Apache", "Stripe"
     ],
-    title: "MentionMe",
+    title: "1800lostdog",
     description:
-      "MentionMe is the advertising website of one marketing company in England. I spearheaded the transition of this website from LAMP stack to modern React-based architecture. The most challenging problem was to prevent losing the users while the transition. To prevent this, we developed the backend side of the project separately from the current site. On the other hand, we designed the migration script that automatically migrates the database from MySQL to MongoDB. And implementing the AG Grid into the admin panel was one of the challenging problems. We changed some various parts of the base node module of the AG Grid and rearrange the component to build it again.",
-    category: "marketing",
-    liveLink: "https://www.mention-me.com/",
+      `This website focuses on providing a quick and efficient pet recovery service through the "1-800-LostDog Pet ID Tag." The website's main feature is the "1-800-LostDog Pet ID Tag," which offers services for quick pet recovery. Users can sign up, register their pets' information, and rely on the tag to facilitate identification and contact in case their pets go missing. The website emphasizes fast recoveries, with an average return time of 30 minutes for lost dogs. 
+      Additionally, the website offers various membership plans, including health guarantees, breeder support, Embark DNA testing, and high-quality food supply. It also provides services such as secure storage of recovery data, a 24/7 Lost Dog Recovery Hotline, quick printing and emailing of lost dog flyers, and free replacement tags.
+      As part of the project, I created a WordPress theme and customized the website's appearance and layout. I integrated Vue.js to add dynamic and responsive components, while Bootstrap ensured a visually appealing and mobile-friendly design.
+      Ajax was used for seamless data exchange between the client and server. Apache served as the web server software for reliable content delivery, and Stripe was integrated for secure online payments.
+      My responsibilities included configuring the Apache server, integrating the Stripe payment gateway, and developing the WordPress theme. I also ensured smooth user experience through responsive design and interactive components using Vue.js.
+      Overall, my contributions resulted in a robust e-commerce website that seamlessly integrated WordPress and Vue.js to provide a reliable and user-friendly platform for pet owners to register and protect their pets while ensuring quick and efficient pet recovery services.`,
+    category: "other",
+    liveLink: "https://1800lostdog.com/development/",
   },
   {
     id: 2,
+    mainImage: IMG_yellowpop_main,
+    img: [
+      IMG_yellowpop_detail1,
+      IMG_yellowpop_detail2,
+      IMG_yellowpop_detail3,
+      IMG_yellowpop_detail4,
+      IMG_yellowpop_detail5,
+    ],
+    features: [
+    ],
+    technologies: [
+      "Shopify", "Liquid", "HTML5", "CSS", "Bootstrap", "JS", "jQuery", "Ajax"
+    ],
+    title: "YellowPop",
+    description:
+      `Yellowpop is a website that specializes in custom LED neon signs and artist collaborations. It offers a wide range of neon sign designs and collections to suit various spaces and occasions. As a full-stack developer working on the Yellowpop website, I had the opportunity to design and implement the "Design Your Text" page.
+      On the "Design Your Text" page, users can create their own customized neon sign by inputting their desired text. They have the flexibility to choose from different font styles, sizes, and colors to personalize their design. The page provides a user-friendly interface with intuitive controls and real-time visualizations, allowing users to see a preview of their neon sign as they make changes.
+      To implement this functionality, I utilized frontend technologies such as HTML, CSS, and JavaScript to create the interactive user interface. I also integrated backend functionalities using Shopify's platform and APIs to handle user inputs, process the design options, and manage the ordering process.
+      Throughout the development process, I ensured that the "Design Your Text" page was responsive and optimized for different devices, providing a seamless user experience across desktop and mobile platforms. I conducted rigorous testing to identify and fix any bugs or issues, ensuring the page's stability and reliability.
+      By designing and implementing the "Design Your Text" page for Yellowpop, I contributed to enhancing the website's functionality, allowing users to unleash their creativity and customize their own unique neon signs. It was a rewarding experience to be part of a project that empowers users to bring their ideas to life through personalized designs.`,
+    category: "e-commerce",
+    liveLink: "https://www.wearejude.com/",
+  },
+  {
+    id: 3,
     mainImage: IMG_DRIVEFLUX_main,
     img: [
       IMG_DRIVEFLUX_detail1,
@@ -147,37 +154,57 @@ const Items = [
     liveLink: "https://driveflux.com/",
   },
   {
-    id: 3,
-    mainImage: IMG_MAISONULLENS_main,
+    id: 5,
+    mainImage: IMG_ISLUXURY_main,
     img: [
-      IMG_MAISONULLENS_detail1,
-      IMG_MAISONULLENS_detail2,
-      IMG_MAISONULLENS_detail3,
+      IMG_ISLUXURY_detail1,
+      IMG_ISLUXURY_detail2,
+      IMG_ISLUXURY_detail3,
+      IMG_ISLUXURY_detail4,
     ],
     features: [
-      "E-Shop",
-      "Maison Ullens",
-      "Craftsmanship",
-      "Collections",
-      "Search",
-      "Account",
+      "Sign In/Up",
+      "Buy a home",
+      "Sell a home",
+      "Contact",
+      "Join",
+      "Magazine",
     ],
     technologies: [
-      "Vue.js",
+      "Wordpress",
       "Material UI",
-      "Node.js",
-      "ExpressJS",
+      "Bootstrap",
+      "SASS",
       "MySQL",
-      "Stripe",
+      "GraphQL",
     ],
-    title: "MAISONULLENS",
+    title: "Is Luxury",
     description:
-      "MAISONULLENS is a portfolio website for Miason creations. Unique design and good animations are the main characteristics of the website.",
-    category: "marketing",
-    liveLink: "https://maisonullens.com/",
+      "LUXURY Estate Management, a division of IS LUXURY, is a full-service home management company specializing in the maintenance management of private luxury residences in premier luxury Las Vegas Valley communities. Their goal is to provide exceptional service to their property owners while maintaining a high standard of professionalism and integrity. I have developed the MVP in 6 months and now People in Las Vegas are actively using these services.",
+    category: "booking",
+    liveLink: "https://www.isluxury.com/",
   },
   {
     id: 4,
+    mainImage: IMG_eq3_main,
+    img: [
+      IMG_eq3_detail1,
+      IMG_eq3_detail2,
+      IMG_eq3_detail3,
+    ],
+    features: [
+    ],
+    technologies: [
+      "React", "Next", "TypeScript", "Redux Saga", "MUI", "Bootstrap", "Node", "Express", "MongoDB", "Stripe", "Jenkins", "AWS"
+    ],
+    title: "EQ3",
+    description:
+      "EQ3 is a modern furniture and home goods shopping website that offers a diverse range of products for various living spaces. As a full-stack developer, I successfully developed the Minimum Viable Product (MVP) for this website within a three-month timeframe. Using React, Next.js, TypeScript, Redux, and Material-UI (MUI), I created an engaging and user-friendly frontend with a focus on exceptional user experience. On the backend, I utilized Node.js, Express.js, and MongoDB to handle data storage, retrieval, and API development. AWS services like Lambda, EC2, and S3 were employed for efficient deployment, while Stripe integration enabled secure and seamless payment processing. Overall, my contributions involved implementing a comprehensive tech stack, designing an intuitive user interface, and ensuring smooth functionality for the EQ3 shopping website.",
+    category: "e-commerce",
+    liveLink: "https://www.eq3.com",
+  },
+  {
+    id: 6,
     mainImage: IMG_LYFT_main,
     img: [
       IMG_LYFT_detail1,
@@ -217,105 +244,34 @@ const Items = [
     liveLink: "https://www.lyft.com/",
   },
   {
-    id: 5,
-    mainImage: IMG_ISLUXURY_main,
-    img: [
-      IMG_ISLUXURY_detail1,
-      IMG_ISLUXURY_detail2,
-      IMG_ISLUXURY_detail3,
-      IMG_ISLUXURY_detail4,
-    ],
-    features: [
-      "Sign In/Up",
-      "Buy a home",
-      "Sell a home",
-      "Contact",
-      "Join",
-      "Magazine",
-    ],
-    technologies: [
-      "Wordpress",
-      "Material UI",
-      "Bootstrap",
-      "SASS",
-      "MySQL",
-      "GraphQL",
-    ],
-    title: "Is Luxury",
-    description:
-      "LUXURY Estate Management, a division of IS LUXURY, is a full-service home management company specializing in the maintenance management of private luxury residences in premier luxury Las Vegas Valley communities. Their goal is to provide exceptional service to their property owners while maintaining a high standard of professionalism and integrity. I have developed the MVP in 6 months and now People in Las Vegas are actively using these services.",
-    category: "booking",
-    liveLink: "https://www.isluxury.com/",
-  },
-  {
-    id: 6,
-    mainImage: IMG_DRONEBLOCKS_main,
-    img: [
-      IMG_DRONEBLOCKS_detail1,
-      IMG_DRONEBLOCKS_detail2,
-      IMG_DRONEBLOCKS_detail3,
-      IMG_DRONEBLOCKS_detail4,
-    ],
-    features: [
-      "Drones",
-      "Sensors",
-      "Robots",
-      "Apps",
-      "Blog",
-      "Forum",
-      "Press",
-      "Team",
-      "Shop",
-      "Contact",
-    ],
-    technologies: [
-      "React",
-      "Redux Toolkit/Saga",
-      "TailwindCSS",
-      "Lodash",
-      "Laravel",
-      "MySQL",
-      "SAAS",
-      "Blockly",
-    ],
-    title: "Drone Blocks",
-    description:
-      "Droneblocks.io was quite an interesting project I have done. The site is about teaching computer science to children with Tello drones. Children can actually develop a program that controls Tello drones using drag and drop editor. My main task was to implement that drag-and-drop editor. We implemented the editor using Google's Blockly library. The job involved customizing the editor for Drones and finally turning the generated code blocks into something that the Tello drone can understand. You can check how it works from here.  https://dev.droneblocks.io/ It was quite an interesting and challenging project. The most challenging part was exception handling. And also there were some problems with Blockly library itself, so we had to deal with that as well.",
-    category: "education",
-    liveLink: "https://droneblocks.io/",
-  },
-  {
     id: 7,
-    mainImage: IMG_VRBO_main,
+    mainImage: IMG_MAISONULLENS_main,
     img: [
-      IMG_VRBO_detail1,
-      IMG_VRBO_detail2,
-      IMG_VRBO_detail3,
-      IMG_VRBO_detail4,
+      IMG_MAISONULLENS_detail1,
+      IMG_MAISONULLENS_detail2,
+      IMG_MAISONULLENS_detail3,
     ],
     features: [
-      "Booking house",
-      "Create personal trip",
-      "Searching suitable houses",
-      "Advertising own property",
+      "E-Shop",
+      "Maison Ullens",
+      "Craftsmanship",
+      "Collections",
+      "Search",
+      "Account",
     ],
     technologies: [
-      "React",
-      "Redux",
-      "Backbone.js",
-      "MobX",
-      "SCSS",
-      "Bootstrap",
-      "React Icons",
-      "GraphQL",
-      "Laravel",
-      "MongoDB",
+      "Vue.js",
+      "Material UI",
+      "Node.js",
+      "ExpressJS",
+      "MySQL",
+      "Stripe",
     ],
-    title: "Vrbo",
+    title: "MAISONULLENS",
     description:
-      "Vrbo is a global vacation rental community with more than 2 million unique properties that seek to connect people with the people and places they love. I was involved in upgrading this web application and my main task was to develop an additive property. People could not only book a house but also advertise their properties. I used Node, React, Laravel, and MongoDB as a tech stack.",
-    category: "booking",
-    liveLink: "https://www.vrbo.com/",
+      "MAISONULLENS is a portfolio website for Miason creations. Unique design and good animations are the main characteristics of the website.",
+    category: "e-commerce",
+    liveLink: "https://maisonullens.com/",
   },
   {
     id: 8,
@@ -355,23 +311,52 @@ const Items = [
   },
   {
     id: 9,
-    mainImage: IMG_GOPUFF_main,
+    mainImage: IMG_sortjoy_main,
     img: [
-      IMG_GOPUFF_detail1,
-      IMG_GOPUFF_detail2,
-      IMG_GOPUFF_detail3,
-      IMG_GOPUFF_detail4,
+      IMG_sortjoy_detail1,
+      IMG_sortjoy_detail2,
+      IMG_sortjoy_detail3,
     ],
-    features: ["Booking delivery", "Registering locations"],
-    technologies: ["Next.js", "Ruby on Nails", "MongoDB", "AWS"],
-    title: "Gopuff Delivery",
+    features: [
+    ],
+    technologies: [
+      "Shoify", "Liquid", "HTML5", "CSS", "JavaScript", "jQuery", "Ajax" 
+    ],
+    title: "SortJoy",
     description:
-      "This website is about booking and delivering food and household goods. I used Node, Lodash and mongodb as a tech stack and integrated third party services like Stripe for payment integration. I have developed the MVP in 3 months and now People are actively using these services.",
-    category: "booking",
-    liveLink: "https://www.gopuff.com/",
+      `SortJoy is an online shopping website that focuses on home organization products. During my tenure as a website developer, I worked on developing the Minimum Viable Product (MVP) for SortJoy for a period of three months. I utilized the Liquid theme template in Shopify to implement the website's design and layout. Additionally, I incorporated JavaScript, jQuery, and Ajax to handle the website's controllers and enable dynamic functionality.
+      Throughout the development process, I faced a few challenges. One of the major challenges was ensuring seamless integration between the front-end and back-end systems, allowing for smooth data flow and user interactions. Another challenge was optimizing the website's performance and loading speed to enhance the user experience. Additionally, I focused on making the website responsive, ensuring that it functions well on various devices and screen sizes. Overall, the project provided valuable experience in e-commerce website development and allowed me to overcome technical hurdles while delivering a functional and visually appealing MVP for SortJoy.`,
+    category: "e-commerce",
+    liveLink: "https://www.sortjoy.com/",
   },
   {
     id: 10,
+    mainImage: IMG_voyageconsultant_main,
+    img: [
+      IMG_voyageconsultant_detail1,
+      IMG_voyageconsultant_detail2,
+      IMG_voyageconsultant_detail3,
+      IMG_voyageconsultant_detail4,
+    ],
+    features: [
+    ],
+    technologies: [
+      "PHP", "WordPress", "Ajax", "jQuery", "Boostrap", "MySQL", "AWS"
+    ],
+    title: "Voyageconsultant",
+    description:
+      `I developed an e-commerce website using WordPress, Bootstrap, jQuery Ajax, Apache, and AWS as the tech stacks. The website serves as a platform for immigration and visa consultancy services.
+      One of the challenging problems I encountered was creating a seamless user experience throughout the visa application process. To address this, I implemented jQuery Ajax to handle dynamic form submissions and ensure smooth data exchange between the client and server.
+      Another challenge was optimizing the website's performance and scalability. I leveraged Apache as the web server and implemented caching techniques to improve page loading times and handle increased traffic.
+      Additionally, I integrated AWS services to enhance the website's functionality. This included utilizing Amazon S3 for storing and serving static assets, Amazon RDS for database management, and Amazon SES for email notifications.
+      My responsibilities included customizing the WordPress theme to align with the client's branding, implementing responsive design using Bootstrap, and integrating various payment gateways for secure online transactions.
+      I also worked on enhancing the website's search engine optimization (SEO) by optimizing meta tags, implementing schema markup, and improving website performance to ensure better visibility in search engine results.
+      Overall, my contributions resulted in a robust e-commerce website that utilized WordPress, Bootstrap, jQuery Ajax, Apache, and AWS to provide a user-friendly platform for immigration and visa consultancy services. The implementation of dynamic form submissions, optimization techniques, and integration of AWS services improved the website's performance, scalability, and user experience.`,
+    category: "other",
+    liveLink: "https://www.voyageconsultant.in/business-visa",
+  },
+  {
+    id: 11,
     mainImage: IMG_WEAREJUDE_main,
     img: [
       IMG_WEAREJUDE_detail1,
@@ -406,88 +391,41 @@ const Items = [
     liveLink: "https://www.wearejude.com/",
   },
   {
-    id: 11,
-    mainImage: IMG_VISTABANK_main,
-    img: [IMG_VISTABANK_detail1, IMG_VISTABANK_detail2, IMG_VISTABANK_detail3],
-    features: [
-      "Sign In/Up",
-      "About Us",
-      "Legal Entities",
-      "AGRI",
-      "Individuals",
-      "Treasury",
-      "Useful Info",
-      "E-Banking",
-    ],
-    technologies: [
-      "Laravel",
-      "SCSS",
-      "Bootstrap",
-      "Tailwind CSS",
-      "MySQL",
-      "AWS",
-    ],
-    title: "Vista Bank",
-    description: "",
-    category: "banking",
-    liveLink: "https://www.vistabank.ro/",
-  },
-  {
     id: 12,
-    mainImage: IMG_STAMPSY_main,
-    img: [IMG_STAMPSY_detail1, IMG_STAMPSY_detail2, IMG_STAMPSY_detail3],
-    features: [],
-    technologies: [
-      "React",
-      "Redux Toolkit/Saga",
-      "Ant Design",
-      "SCSS",
-      "Bootstrap",
-      "Tailwind CSS",
-      "MySQL",
-      "AWS",
+    mainImage: IMG_DRONEBLOCKS_main,
+    img: [
+      IMG_DRONEBLOCKS_detail1,
+      IMG_DRONEBLOCKS_detail2,
+      IMG_DRONEBLOCKS_detail3,
+      IMG_DRONEBLOCKS_detail4,
     ],
-    title: "Stampsy",
-    description:
-      "Stampsy provides a place to share, curate and discover visual content that tells a story. It lets you create beautiful photo stories, mood boards, visual essays and much more Stampsy.com is creatd with Node+React stack.",
-    category: "other",
-    liveLink: "https://stampsy.com/about",
-  },
-  {
-    id: 13,
-    mainImage: IMG_VERBLING_main,
-    img: [IMG_VERBLING_detail1, IMG_VERBLING_detail2, IMG_VERBLING_detail3],
     features: [
-      "Find a Teacher",
-      "Enterprise",
-      "Home",
-      "Sign In/Up",
-      "Languages",
+      "Drones",
+      "Sensors",
+      "Robots",
+      "Apps",
+      "Blog",
+      "Forum",
+      "Press",
+      "Team",
+      "Shop",
+      "Contact",
     ],
     technologies: [
       "React",
       "Redux Toolkit/Saga",
-      "Bootstrap",
-      "Moment.js",
-      "Node.js",
-      "Express.js",
-      "ElasticSearch",
-      "core-js",
-      "socket.io",
-      "PostgreSQL",
-      "Docker",
-      "Kubernetes",
-      "PubNub",
-      "VOIP",
-      "Paypal",
-      "Stripe",
-      "Microsoft Azure",
+      "TailwindCSS",
+      "Lodash",
+      "Laravel",
+      "MySQL",
+      "SAAS",
+      "Blockly",
     ],
-    title: "Verbling",
+    title: "Drone Blocks",
     description:
-      "Verbling is an online language learning platform that pairs individuals with language teachers via video chat. Verbling is developed with micro-service architecture. It uses Node and Express.js for its back-end and ReactJS for its front-end. It integrates with PubNub for VOIP and also integrates with Stripe and Paypal for Payment gateways.",
+      "Droneblocks.io was quite an interesting project I have done. The site is about teaching computer science to children with Tello drones. Children can actually develop a program that controls Tello drones using drag and drop editor. My main task was to implement that drag-and-drop editor. We implemented the editor using Google's Blockly library. The job involved customizing the editor for Drones and finally turning the generated code blocks into something that the Tello drone can understand. You can check how it works from here.  https://dev.droneblocks.io/ It was quite an interesting and challenging project. The most challenging part was exception handling. And also there were some problems with Blockly library itself, so we had to deal with that as well.",
     category: "education",
-    liveLink: "https://www.verbling.com/",
+    liveLink: "https://droneblocks.io/",
   },
 ];
 
