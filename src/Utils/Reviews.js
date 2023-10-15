@@ -10,8 +10,8 @@ import IMG_Person8 from "../assets/Reviews/8.jpg";
 const Reviews = [
   {
     id: 1,
-    name: "Alex Valentin",
-    bio: "CTO & Head of New Macos at NTT DATA UK&I",
+    name: "Jing Chen",
+    bio: "CEO at Fortunes Tech LLC",
     img: IMG_Person1,
     description:
       "We had a very difficult task of developing a React application from scratch and Romeo was there to help us and did an impossible job. Thanks and wish you the best.",
@@ -19,8 +19,8 @@ const Reviews = [
   },
   {
     id: 2,
-    name: "Harrison Stahl",
-    bio: "Lead Software Engineer of NTT DATA UK&I",
+    name: "James Hsu",
+    bio: "Lead Software Engineer at Fortunes Tech LLC",
     img: IMG_Person2,
     description:
       "All I can say to Romeo is a Big Thanks. He helped us refactor the code and improved in every area. It's a pleasure to meet and work with such a great developer.",
@@ -60,24 +60,6 @@ const Reviews = [
     img: IMG_Person6,
     description:
       "He is my partner and we work together. When I fall into any problems, he always support me.",
-    rating: 5.0,
-  },
-  {
-    id: 7,
-    name: "Bogdan Jippa",
-    bio: "Senior Web Developer of SII Romania",
-    img: IMG_Person7,
-    description:
-      "I am continually impressed by his ability to stay on top of emerging technologies and industry trends. His passion for web development is truly infectious.",
-    rating: 5.0,
-  },
-  {
-    id: 8,
-    name: "Peony Pak",
-    bio: "CTO of SII Romania",
-    img: IMG_Person8,
-    description:
-      "His professionalism and work ethic are exceptional. Romeo is a true role model for other developers on our team.",
     rating: 5.0,
   },
 ];

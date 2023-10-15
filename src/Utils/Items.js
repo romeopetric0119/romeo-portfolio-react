@@ -66,19 +66,38 @@ import IMG_yellowpop_detail3 from "../assets/projects/yellowpop/detail3.jpg";
 import IMG_yellowpop_detail4 from "../assets/projects/yellowpop/detail4.jpg";
 import IMG_yellowpop_detail5 from "../assets/projects/yellowpop/detail5.jpg";
 
+import IMG_image_donwloader_main from "../assets/projects/image-downloader/main.png";
+import IMG_image_donwloader_detail1 from "../assets/projects/image-downloader/detail1.png";
+import IMG_image_donwloader_detail2 from "../assets/projects/image-downloader/detail2.png";
+
+import IMG_Save_Code_main from "../assets/projects/save-code/main.jpg";
+import IMG_Save_Code_detail1 from "../assets/projects/save-code/detail1.png";
+import IMG_Save_Code_detail2 from "../assets/projects/save-code/detail2.png";
+import IMG_Save_Code_detail3 from "../assets/projects/save-code/detail3.png";
+import IMG_Save_Code_detail4 from "../assets/projects/save-code/detail4.png";
+import IMG_Save_Code_detail5 from "../assets/projects/save-code/detail5.png";
+
+import IMG_Blur_Image_main from "../assets/projects/blur-image/main.jpg";
+import IMG_Blur_Image_detail1 from "../assets/projects/blur-image/detail1.png";
+import IMG_Blur_Image_detail2 from "../assets/projects/blur-image/detail2.png";
+
 const Items = [
   {
     id: 1,
     mainImage: IMG_1800lostdog_main,
     img: [IMG_1800lostdog_detail1, IMG_1800lostdog_detail2],
-    features: [
-    ],
+    features: [],
     technologies: [
-      "WordPress", "Vue", "Bootstrap", "Moment.js", "Ajax", "Apache", "Stripe"
+      "WordPress",
+      "Vue",
+      "Bootstrap",
+      "Moment.js",
+      "Ajax",
+      "Apache",
+      "Stripe",
     ],
     title: "1800lostdog",
-    description:
-      `This website focuses on providing a quick and efficient pet recovery service through the "1-800-LostDog Pet ID Tag." The website's main feature is the "1-800-LostDog Pet ID Tag," which offers services for quick pet recovery. Users can sign up, register their pets' information, and rely on the tag to facilitate identification and contact in case their pets go missing. The website emphasizes fast recoveries, with an average return time of 30 minutes for lost dogs. 
+    description: `This website focuses on providing a quick and efficient pet recovery service through the "1-800-LostDog Pet ID Tag." The website's main feature is the "1-800-LostDog Pet ID Tag," which offers services for quick pet recovery. Users can sign up, register their pets' information, and rely on the tag to facilitate identification and contact in case their pets go missing. The website emphasizes fast recoveries, with an average return time of 30 minutes for lost dogs.
       Additionally, the website offers various membership plans, including health guarantees, breeder support, Embark DNA testing, and high-quality food supply. It also provides services such as secure storage of recovery data, a 24/7 Lost Dog Recovery Hotline, quick printing and emailing of lost dog flyers, and free replacement tags.
       As part of the project, I created a WordPress theme and customized the website's appearance and layout. I integrated Vue.js to add dynamic and responsive components, while Bootstrap ensured a visually appealing and mobile-friendly design.
       Ajax was used for seamless data exchange between the client and server. Apache served as the web server software for reliable content delivery, and Stripe was integrated for secure online payments.
@@ -97,14 +116,19 @@ const Items = [
       IMG_yellowpop_detail4,
       IMG_yellowpop_detail5,
     ],
-    features: [
-    ],
+    features: [],
     technologies: [
-      "Shopify", "Liquid", "HTML5", "CSS", "Bootstrap", "JS", "jQuery", "Ajax"
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS",
+      "Bootstrap",
+      "JS",
+      "jQuery",
+      "Ajax",
     ],
     title: "YellowPop",
-    description:
-      `Yellowpop is a website that specializes in custom LED neon signs and artist collaborations. It offers a wide range of neon sign designs and collections to suit various spaces and occasions. As a full-stack developer working on the Yellowpop website, I had the opportunity to design and implement the "Design Your Text" page.
+    description: `Yellowpop is a website that specializes in custom LED neon signs and artist collaborations. It offers a wide range of neon sign designs and collections to suit various spaces and occasions. As a full-stack developer working on the Yellowpop website, I had the opportunity to design and implement the "Design Your Text" page.
       On the "Design Your Text" page, users can create their own customized neon sign by inputting their desired text. They have the flexibility to choose from different font styles, sizes, and colors to personalize their design. The page provides a user-friendly interface with intuitive controls and real-time visualizations, allowing users to see a preview of their neon sign as they make changes.
       To implement this functionality, I utilized frontend technologies such as HTML, CSS, and JavaScript to create the interactive user interface. I also integrated backend functionalities using Shopify's platform and APIs to handle user inputs, process the design options, and manage the ordering process.
       Throughout the development process, I ensured that the "Design Your Text" page was responsive and optimized for different devices, providing a seamless user experience across desktop and mobile platforms. I conducted rigorous testing to identify and fix any bugs or issues, ensuring the page's stability and reliability.
@@ -187,15 +211,21 @@ const Items = [
   {
     id: 4,
     mainImage: IMG_eq3_main,
-    img: [
-      IMG_eq3_detail1,
-      IMG_eq3_detail2,
-      IMG_eq3_detail3,
-    ],
-    features: [
-    ],
+    img: [IMG_eq3_detail1, IMG_eq3_detail2, IMG_eq3_detail3],
+    features: [],
     technologies: [
-      "React", "Next", "TypeScript", "Redux Saga", "MUI", "Bootstrap", "Node", "Express", "MongoDB", "Stripe", "Jenkins", "AWS"
+      "React",
+      "Next",
+      "TypeScript",
+      "Redux Saga",
+      "MUI",
+      "Bootstrap",
+      "Node",
+      "Express",
+      "MongoDB",
+      "Stripe",
+      "Jenkins",
+      "AWS",
     ],
     title: "EQ3",
     description:
@@ -312,19 +342,19 @@ const Items = [
   {
     id: 9,
     mainImage: IMG_sortjoy_main,
-    img: [
-      IMG_sortjoy_detail1,
-      IMG_sortjoy_detail2,
-      IMG_sortjoy_detail3,
-    ],
-    features: [
-    ],
+    img: [IMG_sortjoy_detail1, IMG_sortjoy_detail2, IMG_sortjoy_detail3],
+    features: [],
     technologies: [
-      "Shoify", "Liquid", "HTML5", "CSS", "JavaScript", "jQuery", "Ajax" 
+      "Shoify",
+      "Liquid",
+      "HTML5",
+      "CSS",
+      "JavaScript",
+      "jQuery",
+      "Ajax",
     ],
     title: "SortJoy",
-    description:
-      `SortJoy is an online shopping website that focuses on home organization products. During my tenure as a website developer, I worked on developing the Minimum Viable Product (MVP) for SortJoy for a period of three months. I utilized the Liquid theme template in Shopify to implement the website's design and layout. Additionally, I incorporated JavaScript, jQuery, and Ajax to handle the website's controllers and enable dynamic functionality.
+    description: `SortJoy is an online shopping website that focuses on home organization products. During my tenure as a website developer, I worked on developing the Minimum Viable Product (MVP) for SortJoy for a period of three months. I utilized the Liquid theme template in Shopify to implement the website's design and layout. Additionally, I incorporated JavaScript, jQuery, and Ajax to handle the website's controllers and enable dynamic functionality.
       Throughout the development process, I faced a few challenges. One of the major challenges was ensuring seamless integration between the front-end and back-end systems, allowing for smooth data flow and user interactions. Another challenge was optimizing the website's performance and loading speed to enhance the user experience. Additionally, I focused on making the website responsive, ensuring that it functions well on various devices and screen sizes. Overall, the project provided valuable experience in e-commerce website development and allowed me to overcome technical hurdles while delivering a functional and visually appealing MVP for SortJoy.`,
     category: "e-commerce",
     liveLink: "https://www.sortjoy.com/",
@@ -338,14 +368,18 @@ const Items = [
       IMG_voyageconsultant_detail3,
       IMG_voyageconsultant_detail4,
     ],
-    features: [
-    ],
+    features: [],
     technologies: [
-      "PHP", "WordPress", "Ajax", "jQuery", "Boostrap", "MySQL", "AWS"
+      "PHP",
+      "WordPress",
+      "Ajax",
+      "jQuery",
+      "Boostrap",
+      "MySQL",
+      "AWS",
     ],
     title: "Voyageconsultant",
-    description:
-      `I developed an e-commerce website using WordPress, Bootstrap, jQuery Ajax, Apache, and AWS as the tech stacks. The website serves as a platform for immigration and visa consultancy services.
+    description: `I developed an e-commerce website using WordPress, Bootstrap, jQuery Ajax, Apache, and AWS as the tech stacks. The website serves as a platform for immigration and visa consultancy services.
       One of the challenging problems I encountered was creating a seamless user experience throughout the visa application process. To address this, I implemented jQuery Ajax to handle dynamic form submissions and ensure smooth data exchange between the client and server.
       Another challenge was optimizing the website's performance and scalability. I leveraged Apache as the web server and implemented caching techniques to improve page loading times and handle increased traffic.
       Additionally, I integrated AWS services to enhance the website's functionality. This included utilizing Amazon S3 for storing and serving static assets, Amazon RDS for database management, and Amazon SES for email notifications.
@@ -426,6 +460,50 @@ const Items = [
       "Droneblocks.io was quite an interesting project I have done. The site is about teaching computer science to children with Tello drones. Children can actually develop a program that controls Tello drones using drag and drop editor. My main task was to implement that drag-and-drop editor. We implemented the editor using Google's Blockly library. The job involved customizing the editor for Drones and finally turning the generated code blocks into something that the Tello drone can understand. You can check how it works from here.  https://dev.droneblocks.io/ It was quite an interesting and challenging project. The most challenging part was exception handling. And also there were some problems with Blockly library itself, so we had to deal with that as well.",
     category: "education",
     liveLink: "https://droneblocks.io/",
+  },
+  {
+    id: 13,
+    mainImage: IMG_Save_Code_main,
+    img: [
+      IMG_Save_Code_detail1,
+      IMG_Save_Code_detail2,
+      IMG_Save_Code_detail3,
+      IMG_Save_Code_detail4,
+      IMG_Save_Code_detail5,
+    ],
+    features: [],
+    technologies: ["React", "Angular", "MongoDB", "Laravel", "AWS"],
+    title: "Save Code",
+    description: `Save, organize & share code snippets that work. \nThis tool is for saving that one piece of code that worked after (what seems like an eternity) of searching, trying and searching again. \nSave that code snippet for the next time you'll need it. \nThis extension saves code snippets that you across on the web, as well as, useful webpages that help you with coding. All you have to do is click the "save" button that appears below snippets or just select text anywhere and right-click to save! You can organize your code in collections and access it anytime from the web hosted on thiscodeworks.com. \nThis extension syncs with the web app and Visual Studio Code extension. You can also share your snippets as a link, image, or embeddable HTML iframe.`,
+    category: "chrome extension",
+    liveLink:
+      "https://chrome.google.com/webstore/detail/save-code/annlhfjgbkfmbbejkbdpgbmpbcjnehbb/related",
+  },
+  {
+    id: 14,
+    mainImage: IMG_image_donwloader_main,
+    img: [IMG_image_donwloader_detail1, IMG_image_donwloader_detail2],
+    features: [],
+    technologies: ["React", "HTML5", "CSS3", "JavaScript"],
+    title: "Image Downloader",
+    description:
+      "Image Downloader is a powerful Chrome extension that leverages React to simplify the image downloading process. With this extension, users can effortlessly retrieve and save images from any webpage they visit. The extension scans the current site, compiles a comprehensive list of images, and presents them in a user-friendly interface. Users can then select and download their desired images with ease, making image collection a breeze. Image Downloader offers a seamless and efficient solution for accessing and saving images directly from the Chrome browser.",
+    category: "chrome extension",
+    liveLink:
+      "https://chrome.google.com/webstore/detail/image-downloader/cnpniohnfphhjihaiiggeabnkjhpaldj",
+  },
+  {
+    id: 15,
+    mainImage: IMG_Blur_Image_main,
+    img: [IMG_Blur_Image_detail1, IMG_Blur_Image_detail2],
+    features: [],
+    technologies: ["React", "HTML5", "CSS3", "JavaScript"],
+    title: "Blur. The Image and Video blur extension",
+    description:
+      "A Chrome extension that blurs all images on a page, for when you want to be discreet or don't want to look at certain images. \nWe’ve all been in a situation where we’ve ‘accidentally’ searched for something online and have seen images we wished we didn’t. \nThen you’ve probably been in a situation where you’re browsing Facebook, Instagram etc. at work or at the library only to spot the person beside you peeping at your screen. \nOr you’ve been in a situation where you just want to read an article without being bombarded by images and videos. \nWell, now, you can. This add on blurs all images and videos on a page so you can focus on what matters. You can choose to view or not view content. \nTo view, just hover over an image for a second to unblur. Done? Just disable the extension from the toolbar.",
+    category: "chrome extension",
+    liveLink:
+      "https://chrome.google.com/webstore/detail/blur-the-image-and-video/aikjogmpaoaookmacnkbenekcnkjlkmi",
   },
 ];
 

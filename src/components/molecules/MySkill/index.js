@@ -95,14 +95,6 @@ const MySkill = () => {
           title: "Python",
           icon: <SiPython className="text-yellow-600 rounded" />,
         },
-        {
-          title: "Java",
-          icon: <FaJava className="text-red-500 rounded" />,
-        },
-        {
-          title: "C#",
-          icon: <SiCsharp className="text-purple-600 rounded" />,
-        },
       ],
     },
     {

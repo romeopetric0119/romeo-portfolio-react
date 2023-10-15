@@ -3,16 +3,7 @@ import "./Contact.css";
 import "../../components/atoms/PrimaryBtn/PrimaryBtn.css";
 import "../shared/Shared.css";
 import { motion, useAnimation } from "framer-motion";
-import {
-  FaUserAlt,
-  FaLinkedin,
-  FaGithubSquare,
-  FaTwitterSquare,
-  FaInstagramSquare,
-  FaGitlab,
-  FaStackOverflow,
-  FaGithub,
-} from "react-icons/fa";
+import { FaUserAlt, FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail, MdSend } from "react-icons/md";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
@@ -178,25 +169,11 @@ const Contact = () => {
               <FaLinkedin></FaLinkedin>
             </a>
             <a
-              href="https://www.github.com/techexpert0119"
+              href="https://www.github.com/cryboat0119"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
               <FaGithub></FaGithub>
-            </a>
-            <a
-              href="https://stackoverflow.com/users/22476151/techexpert0119"
-              target="blank"
-              className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
-            >
-              <FaStackOverflow></FaStackOverflow>
-            </a>
-            <a
-              href="https://gitlab.com/techexpert0119"
-              target="blank"
-              className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
-            >
-              <FaGitlab></FaGitlab>
             </a>
           </div>
         </motion.div>

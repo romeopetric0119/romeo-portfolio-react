@@ -75,12 +75,20 @@ const Banner = () => {
             />
           </div>
           <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%]">
-          Experienced Senior Full-Stack Developer with 9+ years of expertise in designing, developing, and implementing cutting-edge web/mobile applications and solutions. Proficient in multiple technical stacks and programming languages, I thrive in fast-paced environments and excel at delivering high-quality software solutions. Adept at staying abreast of industry trends and continuously enhancing skills to ensure optimal performance. Demonstrated leadership skills and a proven track record of leading successful development teams. Known for my problem-solving abilities and meticulous attention to detail.
+            Experienced Full-Stack Developer with 8+ years of expertise in
+            designing, developing, and implementing cutting-edge web/mobile
+            applications and solutions. Proficient in multiple technical stacks
+            and programming languages, I thrive in fast-paced environments and
+            excel at delivering high-quality software solutions. Adept at
+            staying abreast of industry trends and continuously enhancing skills
+            to ensure optimal performance. Demonstrated leadership skills and a
+            proven track record of leading successful development teams. Known
+            for my problem-solving abilities and meticulous attention to detail.
           </p>
 
           <div className="flex items-center translate-y-[-60%] sm:translate-y-[-0%]">
             <a
-              href="https://drive.google.com/file/d/1Yy8FmkcO5tMrgDWEsk4i_06f6hi0JT8i/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1aFoqx1RsCEWbiIM3Er7_X7bSkUSiYuU9/view?usp=sharing"
               target="blank"
             >
               <button className="primary-button">

@@ -117,11 +117,20 @@ const About = () => {
             />
           </div>
           <p className="text-neutral font-medium text-center translate-y-[-100%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
-          Experienced Senior Full-Stack Developer with 9+ years of expertise in designing, developing, and implementing cutting-edge web/mobile applications and solutions. Proficient in multiple technical stacks and programming languages, I thrive in fast-paced environments and excel at delivering high-quality software solutions. Adept at staying abreast of industry trends and continuously enhancing skills to ensure optimal performance. Demonstrated leadership skills and a proven track record of leading successful development teams. Known for my problem-solving abilities and meticulous attention to detail. 
+            Experienced Full-Stack Developer with 8+ years of expertise in
+            designing, developing, and implementing cutting-edge web/mobile
+            applications and solutions. Proficient in multiple technical stacks
+            and programming languages, I thrive in fast-paced environments and
+            excel at delivering high-quality software solutions. Adept at
+            staying abreast of industry trends and continuously enhancing skills
+            to ensure optimal performance. Demonstrated leadership skills and a
+            proven track record of leading successful development teams. Known
+            for my problem-solving abilities and meticulous attention to detail.
           </p>
           <br />
           <p className="text-neutral font-medium text-center translate-y-[-150%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
-          Seeking to leverage my expertise and contribute to the growth of a forward-thinking organization at the forefront of technology.
+            Seeking to leverage my expertise and contribute to the growth of a
+            forward-thinking organization at the forefront of technology.
           </p>
         </motion.div>
       </Panel>

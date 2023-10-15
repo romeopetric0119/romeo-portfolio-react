@@ -1,7 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { BiCloudDownload, BiMobile, BiPalette, BiShoppingBag, BiSitemap, BiSolidEnvelope } from "react-icons/bi";
+import {
+  BiCloudDownload,
+  BiMobile,
+  BiPalette,
+  BiShoppingBag,
+  BiSitemap,
+  BiSolidEnvelope,
+} from "react-icons/bi";
 import { DiAtom } from "react-icons/di";
 import {
   headingAnimation,
@@ -49,10 +56,10 @@ const Service = () => {
     },
     {
       id: 4,
-      title: "Web Development",
+      title: "Chrome Extension",
       icon: <MdDeveloperMode />,
       description:
-        "High-quality development of web applications and websites at the professional level.",
+        "High-quality development of chrome extensions and applications at the professional level.",
     },
     {
       id: 5,
