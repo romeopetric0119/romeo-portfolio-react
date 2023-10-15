@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaGitlab, FaStackOverflow } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   const year = new Date();
@@ -21,7 +21,7 @@ const Footer = () => {
           </a>
           <a
             className="inline-block mx-2"
-            href="https://www.github.com/techexpert0119"
+            href="https://www.github.com/cryboat0119"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -10,7 +10,7 @@ import { FaBriefcase } from "react-icons/fa";
 import { SlBriefcase, SlLocationPin } from "react-icons/sl";
 import experience from "../../../assets/lottie/experience.json";
 
-import IMG_COM1 from "../../../assets/company/NTT DATA UK&I.jpg";
+import IMG_COM1 from "../../../assets/company/Fortunes Tech.jpg";
 import IMG_COM2 from "../../../assets/company/Idea.jpg";
 import IMG_COM3 from "../../../assets/company/SII Romania.jpg";
 import IMG_COM4 from "../../../assets/company/Integrisoft Solutions.jpg";
@@ -29,13 +29,13 @@ const Experience = () => {
     {
       image: IMG_COM1,
       background: "rgb(33, 150, 243)",
-      title: "NTT DATA UK&I",
+      title: "Fortunes Tech LLC",
       job: "Senior Web Developer",
       start: "05/2021",
-      end: "08/2023",
-      position: "London, UK",
+      end: "09/2023",
+      position: "Liverpool, UK",
       description:
-        "I worked remotely as a Senior Full Stack Developer at NTT DATA UK&I leading a team of remote developers technically and spearheading the web development.",
+        "I worked remotely as a Senior Full Stack Developer at Fortunes Tech LLC leading a team of remote developers technically and spearheading the web development.",
     },
     {
       image: IMG_COM2,

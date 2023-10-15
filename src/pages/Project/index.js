@@ -44,6 +44,7 @@ const Project = () => {
     "lending",
     "education",
     "healthcare",
+    "chrome extension",
     "other",
   ];
 
