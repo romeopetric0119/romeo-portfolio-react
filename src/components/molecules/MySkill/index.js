@@ -59,6 +59,9 @@ import {
   SiAmazonec2,
   SiCsharp,
   SiMaterialdesign,
+  SiMui,
+  SiVirtualbox,
+  SiVuetify,
 } from "react-icons/si";
 import man from "../../../assets/lottie/man.json";
 
@@ -169,16 +172,20 @@ const MySkill = () => {
           icon: <SiTailwindcss className="text-cyan-400" />,
         },
         {
-          title: "Styled-component",
-          icon: <SiStyledcomponents className="text-yellow-600" />,
+          title: "MaterialUI",
+          icon: <SiMui className="text-blue-600" />,
         },
         {
           title: "Ant-Design",
           icon: <SiAntdesign className="text-blue-400" />,
         },
         {
-          title: "MaterialUI",
-          icon: <SiMaterialdesign className="text-blue-600" />,
+          title: "Vuetify",
+          icon: <SiVuetify className="text-blue-600" />,
+        },
+        {
+          title: "Styled-component",
+          icon: <SiStyledcomponents className="text-yellow-600" />,
         },
       ],
     },
