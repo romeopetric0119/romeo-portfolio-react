@@ -43,7 +43,7 @@ const Education = () => {
             contentArrowStyle={{
               borderRight: "7px solid  rgb(102, 102, 51)",
             }}
-            date="09/2011 - 08/2015"
+            date="09/2011 - 04/2015"
             iconStyle={{ background: "rgb(102, 102, 51)", color: "#fff" }}
             icon={<FaUniversity />}
           >

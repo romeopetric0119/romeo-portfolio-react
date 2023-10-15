@@ -120,10 +120,10 @@ function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/project/:id" element={<ProjectDetails />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />}>
+          {/* <Route path="/blog" element={<Blog />}>
             <Route index element={<BlogIndex />} />
             <Route path=":blog_path" element={<BlogDetail />} />
-          </Route>
+          </Route> */}
           <Route path="/404" element={<NotFound />} />
           <Route path="*" element={<Navigate replace to="/404" />}></Route>
         </Routes>
