@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { BiCloudDownload, BiPalette } from "react-icons/bi";
+import { BiCloudDownload, BiMobile, BiPalette, BiShoppingBag, BiSitemap, BiSolidEnvelope } from "react-icons/bi";
 import { DiAtom } from "react-icons/di";
 import {
   headingAnimation,
   sectionBodyAnimation,
 } from "../../../hooks/useAnimation";
 import { BottomLine } from "../../../components";
+import { SiShopify } from "react-icons/si";
+import { SlTag } from "react-icons/sl";
+import { MdDeveloperMode } from "react-icons/md";
 
 const Service = () => {
   const [ref, inView] = useInView();
@@ -28,21 +31,42 @@ const Service = () => {
       title: "Full Stack Development",
       icon: <DiAtom />,
       description:
-        "As a highly skilled senior web developer, I've implemented and maintained 30+ robust web applications from scratch.",
+        "As a highly skilled senior web developer, I've worked on 30+ robust web applications.",
     },
     {
       id: 2,
       title: "Responsive Web Design",
       icon: <BiPalette />,
       description:
-        "I also provide Fully Responsive Static Website Design with HTML5, CSS, Bootstrap, Ant-Design, Tailwind.",
+        "Provide high-quality and fully responsive web design with fashion designing tools",
     },
     {
       id: 3,
       title: "Cloud Computing",
       icon: <BiCloudDownload />,
       description:
-        "Cloud Application Development is one of my expertise with over 5+ years of DevOps experience.",
+        "Cloud Application Development with over 5+ years of DevOps experience.",
+    },
+    {
+      id: 4,
+      title: "Web Development",
+      icon: <MdDeveloperMode />,
+      description:
+        "High-quality development of web applications and websites at the professional level.",
+    },
+    {
+      id: 5,
+      title: "Mobile Apps",
+      icon: <BiMobile />,
+      description:
+        "Professional development of mobile applications for iOS and Android.",
+    },
+    {
+      id: 6,
+      title: "E-Commerce Solutions",
+      icon: <SiShopify />,
+      description:
+        "Create custom themes and enhance online stores using Shopify and WordPress.",
     },
   ];
   return (
